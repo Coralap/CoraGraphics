@@ -33,18 +33,61 @@ Application::Application(unsigned int width, unsigned int height, const std::str
     shader = new Shader("../src/shadertry.vs", "../src/shadertry.fs");
 
     // Define a square (two triangles)
-    std::vector<float> vertices = {
-        // positions         // normals       // texcoords
-        0.5f,  0.5f, 0.0f,   0,0,1,          1.0f, 1.0f, // top right
-        0.5f, -0.5f, 0.0f,   0,0,1,          1.0f, 0.0f, // bottom right
-       -0.5f, -0.5f, 0.0f,   0,0,1,          0.0f, 0.0f, // bottom left
-       -0.5f,  0.5f, 0.0f,   0,0,1,          0.0f, 1.0f  // top left
-    };
+std::vector<float> vertices = {
+    // positions           // normals          // texcoords
+    // Front face
+   -0.5f, -0.5f,  0.5f,    0.0f,  0.0f,  1.0f,   0.0f, 0.0f,
+    0.5f, -0.5f,  0.5f,    0.0f,  0.0f,  1.0f,   1.0f, 0.0f,
+    0.5f,  0.5f,  0.5f,    0.0f,  0.0f,  1.0f,   1.0f, 1.0f,
+   -0.5f,  0.5f,  0.5f,    0.0f,  0.0f,  1.0f,   0.0f, 1.0f,
 
-    std::vector<unsigned int> indices = {
-        0, 1, 3, // first triangle
-        1, 2, 3  // second triangle
-    };
+    // Back face
+   -0.5f, -0.5f, -0.5f,    0.0f,  0.0f, -1.0f,   1.0f, 0.0f,
+    0.5f, -0.5f, -0.5f,    0.0f,  0.0f, -1.0f,   0.0f, 0.0f,
+    0.5f,  0.5f, -0.5f,    0.0f,  0.0f, -1.0f,   0.0f, 1.0f,
+   -0.5f,  0.5f, -0.5f,    0.0f,  0.0f, -1.0f,   1.0f, 1.0f,
+
+    // Left face
+   -0.5f, -0.5f, -0.5f,   -1.0f,  0.0f,  0.0f,   0.0f, 0.0f,
+   -0.5f, -0.5f,  0.5f,   -1.0f,  0.0f,  0.0f,   1.0f, 0.0f,
+   -0.5f,  0.5f,  0.5f,   -1.0f,  0.0f,  0.0f,   1.0f, 1.0f,
+   -0.5f,  0.5f, -0.5f,   -1.0f,  0.0f,  0.0f,   0.0f, 1.0f,
+
+    // Right face
+    0.5f, -0.5f, -0.5f,    1.0f,  0.0f,  0.0f,   1.0f, 0.0f,
+    0.5f, -0.5f,  0.5f,    1.0f,  0.0f,  0.0f,   0.0f, 0.0f,
+    0.5f,  0.5f,  0.5f,    1.0f,  0.0f,  0.0f,   0.0f, 1.0f,
+    0.5f,  0.5f, -0.5f,    1.0f,  0.0f,  0.0f,   1.0f, 1.0f,
+
+    // Top face
+   -0.5f,  0.5f, -0.5f,    0.0f,  1.0f,  0.0f,   0.0f, 1.0f,
+   -0.5f,  0.5f,  0.5f,    0.0f,  1.0f,  0.0f,   0.0f, 0.0f,
+    0.5f,  0.5f,  0.5f,    0.0f,  1.0f,  0.0f,   1.0f, 0.0f,
+    0.5f,  0.5f, -0.5f,    0.0f,  1.0f,  0.0f,   1.0f, 1.0f,
+
+    // Bottom face
+   -0.5f, -0.5f, -0.5f,    0.0f, -1.0f,  0.0f,   1.0f, 1.0f,
+   -0.5f, -0.5f,  0.5f,    0.0f, -1.0f,  0.0f,   1.0f, 0.0f,
+    0.5f, -0.5f,  0.5f,    0.0f, -1.0f,  0.0f,   0.0f, 0.0f,
+    0.5f, -0.5f, -0.5f,    0.0f, -1.0f,  0.0f,   0.0f, 1.0f,
+};
+
+
+std::vector<unsigned int> indices = {
+    // front
+    0, 1, 2, 0, 2, 3,
+    // back
+    4, 5, 6, 4, 6, 7,
+    // left
+    8, 9,10, 8,10,11,
+    // right
+   12,13,14,12,14,15,
+    // top
+   16,17,18,16,18,19,
+    // bottom
+   20,21,22,20,22,23
+};
+
 
     squareMesh = new Mesh(vertices, indices,"../src/container.jpg");
 
