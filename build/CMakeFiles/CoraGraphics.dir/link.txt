@@ -1,0 +1,3 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\CoraGraphics.dir/objects.a
+C:\MinGW\bin\ar.exe qc CMakeFiles\CoraGraphics.dir/objects.a @CMakeFiles\CoraGraphics.dir\objects1.rsp
+C:\MinGW\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\CoraGraphics.dir/objects.a -Wl,--no-whole-archive -o CoraGraphics.exe -Wl,--out-implib,libCoraGraphics.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\CoraGraphics.dir\linkLibs.rsp
