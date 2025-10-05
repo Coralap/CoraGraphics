@@ -174,6 +174,19 @@ glad/fast:
 .PHONY : glad/fast
 
 #=============================================================================
+# Target rules for targets named imgui
+
+# Build rule for target.
+imgui: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 imgui
+.PHONY : imgui
+
+# fast build rule for target.
+imgui/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\imgui.dir\build.make CMakeFiles/imgui.dir/build
+.PHONY : imgui/fast
+
+#=============================================================================
 # Target rules for targets named CoraGraphics
 
 # Build rule for target.
@@ -602,6 +615,150 @@ windows/fast:
 	$(MAKE) $(MAKESILENT) -f _deps\glfw-build\tests\CMakeFiles\windows.dir\build.make _deps/glfw-build/tests/CMakeFiles/windows.dir/build
 .PHONY : windows/fast
 
+include/imgui/backends/imgui_impl_glfw.obj: include/imgui/backends/imgui_impl_glfw.cpp.obj
+.PHONY : include/imgui/backends/imgui_impl_glfw.obj
+
+# target to build an object file
+include/imgui/backends/imgui_impl_glfw.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\imgui.dir\build.make CMakeFiles/imgui.dir/include/imgui/backends/imgui_impl_glfw.cpp.obj
+.PHONY : include/imgui/backends/imgui_impl_glfw.cpp.obj
+
+include/imgui/backends/imgui_impl_glfw.i: include/imgui/backends/imgui_impl_glfw.cpp.i
+.PHONY : include/imgui/backends/imgui_impl_glfw.i
+
+# target to preprocess a source file
+include/imgui/backends/imgui_impl_glfw.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\imgui.dir\build.make CMakeFiles/imgui.dir/include/imgui/backends/imgui_impl_glfw.cpp.i
+.PHONY : include/imgui/backends/imgui_impl_glfw.cpp.i
+
+include/imgui/backends/imgui_impl_glfw.s: include/imgui/backends/imgui_impl_glfw.cpp.s
+.PHONY : include/imgui/backends/imgui_impl_glfw.s
+
+# target to generate assembly for a file
+include/imgui/backends/imgui_impl_glfw.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\imgui.dir\build.make CMakeFiles/imgui.dir/include/imgui/backends/imgui_impl_glfw.cpp.s
+.PHONY : include/imgui/backends/imgui_impl_glfw.cpp.s
+
+include/imgui/backends/imgui_impl_opengl3.obj: include/imgui/backends/imgui_impl_opengl3.cpp.obj
+.PHONY : include/imgui/backends/imgui_impl_opengl3.obj
+
+# target to build an object file
+include/imgui/backends/imgui_impl_opengl3.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\imgui.dir\build.make CMakeFiles/imgui.dir/include/imgui/backends/imgui_impl_opengl3.cpp.obj
+.PHONY : include/imgui/backends/imgui_impl_opengl3.cpp.obj
+
+include/imgui/backends/imgui_impl_opengl3.i: include/imgui/backends/imgui_impl_opengl3.cpp.i
+.PHONY : include/imgui/backends/imgui_impl_opengl3.i
+
+# target to preprocess a source file
+include/imgui/backends/imgui_impl_opengl3.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\imgui.dir\build.make CMakeFiles/imgui.dir/include/imgui/backends/imgui_impl_opengl3.cpp.i
+.PHONY : include/imgui/backends/imgui_impl_opengl3.cpp.i
+
+include/imgui/backends/imgui_impl_opengl3.s: include/imgui/backends/imgui_impl_opengl3.cpp.s
+.PHONY : include/imgui/backends/imgui_impl_opengl3.s
+
+# target to generate assembly for a file
+include/imgui/backends/imgui_impl_opengl3.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\imgui.dir\build.make CMakeFiles/imgui.dir/include/imgui/backends/imgui_impl_opengl3.cpp.s
+.PHONY : include/imgui/backends/imgui_impl_opengl3.cpp.s
+
+include/imgui/imgui.obj: include/imgui/imgui.cpp.obj
+.PHONY : include/imgui/imgui.obj
+
+# target to build an object file
+include/imgui/imgui.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\imgui.dir\build.make CMakeFiles/imgui.dir/include/imgui/imgui.cpp.obj
+.PHONY : include/imgui/imgui.cpp.obj
+
+include/imgui/imgui.i: include/imgui/imgui.cpp.i
+.PHONY : include/imgui/imgui.i
+
+# target to preprocess a source file
+include/imgui/imgui.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\imgui.dir\build.make CMakeFiles/imgui.dir/include/imgui/imgui.cpp.i
+.PHONY : include/imgui/imgui.cpp.i
+
+include/imgui/imgui.s: include/imgui/imgui.cpp.s
+.PHONY : include/imgui/imgui.s
+
+# target to generate assembly for a file
+include/imgui/imgui.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\imgui.dir\build.make CMakeFiles/imgui.dir/include/imgui/imgui.cpp.s
+.PHONY : include/imgui/imgui.cpp.s
+
+include/imgui/imgui_draw.obj: include/imgui/imgui_draw.cpp.obj
+.PHONY : include/imgui/imgui_draw.obj
+
+# target to build an object file
+include/imgui/imgui_draw.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\imgui.dir\build.make CMakeFiles/imgui.dir/include/imgui/imgui_draw.cpp.obj
+.PHONY : include/imgui/imgui_draw.cpp.obj
+
+include/imgui/imgui_draw.i: include/imgui/imgui_draw.cpp.i
+.PHONY : include/imgui/imgui_draw.i
+
+# target to preprocess a source file
+include/imgui/imgui_draw.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\imgui.dir\build.make CMakeFiles/imgui.dir/include/imgui/imgui_draw.cpp.i
+.PHONY : include/imgui/imgui_draw.cpp.i
+
+include/imgui/imgui_draw.s: include/imgui/imgui_draw.cpp.s
+.PHONY : include/imgui/imgui_draw.s
+
+# target to generate assembly for a file
+include/imgui/imgui_draw.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\imgui.dir\build.make CMakeFiles/imgui.dir/include/imgui/imgui_draw.cpp.s
+.PHONY : include/imgui/imgui_draw.cpp.s
+
+include/imgui/imgui_tables.obj: include/imgui/imgui_tables.cpp.obj
+.PHONY : include/imgui/imgui_tables.obj
+
+# target to build an object file
+include/imgui/imgui_tables.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\imgui.dir\build.make CMakeFiles/imgui.dir/include/imgui/imgui_tables.cpp.obj
+.PHONY : include/imgui/imgui_tables.cpp.obj
+
+include/imgui/imgui_tables.i: include/imgui/imgui_tables.cpp.i
+.PHONY : include/imgui/imgui_tables.i
+
+# target to preprocess a source file
+include/imgui/imgui_tables.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\imgui.dir\build.make CMakeFiles/imgui.dir/include/imgui/imgui_tables.cpp.i
+.PHONY : include/imgui/imgui_tables.cpp.i
+
+include/imgui/imgui_tables.s: include/imgui/imgui_tables.cpp.s
+.PHONY : include/imgui/imgui_tables.s
+
+# target to generate assembly for a file
+include/imgui/imgui_tables.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\imgui.dir\build.make CMakeFiles/imgui.dir/include/imgui/imgui_tables.cpp.s
+.PHONY : include/imgui/imgui_tables.cpp.s
+
+include/imgui/imgui_widgets.obj: include/imgui/imgui_widgets.cpp.obj
+.PHONY : include/imgui/imgui_widgets.obj
+
+# target to build an object file
+include/imgui/imgui_widgets.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\imgui.dir\build.make CMakeFiles/imgui.dir/include/imgui/imgui_widgets.cpp.obj
+.PHONY : include/imgui/imgui_widgets.cpp.obj
+
+include/imgui/imgui_widgets.i: include/imgui/imgui_widgets.cpp.i
+.PHONY : include/imgui/imgui_widgets.i
+
+# target to preprocess a source file
+include/imgui/imgui_widgets.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\imgui.dir\build.make CMakeFiles/imgui.dir/include/imgui/imgui_widgets.cpp.i
+.PHONY : include/imgui/imgui_widgets.cpp.i
+
+include/imgui/imgui_widgets.s: include/imgui/imgui_widgets.cpp.s
+.PHONY : include/imgui/imgui_widgets.s
+
+# target to generate assembly for a file
+include/imgui/imgui_widgets.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\imgui.dir\build.make CMakeFiles/imgui.dir/include/imgui/imgui_widgets.cpp.s
+.PHONY : include/imgui/imgui_widgets.cpp.s
+
 src/glad.obj: src/glad.c.obj
 .PHONY : src/glad.obj
 
@@ -678,6 +835,7 @@ help:
 	@echo ... heightmap
 	@echo ... icon
 	@echo ... iconify
+	@echo ... imgui
 	@echo ... inputlag
 	@echo ... joysticks
 	@echo ... monitors
@@ -696,6 +854,24 @@ help:
 	@echo ... triangle-vulkan
 	@echo ... wave
 	@echo ... windows
+	@echo ... include/imgui/backends/imgui_impl_glfw.obj
+	@echo ... include/imgui/backends/imgui_impl_glfw.i
+	@echo ... include/imgui/backends/imgui_impl_glfw.s
+	@echo ... include/imgui/backends/imgui_impl_opengl3.obj
+	@echo ... include/imgui/backends/imgui_impl_opengl3.i
+	@echo ... include/imgui/backends/imgui_impl_opengl3.s
+	@echo ... include/imgui/imgui.obj
+	@echo ... include/imgui/imgui.i
+	@echo ... include/imgui/imgui.s
+	@echo ... include/imgui/imgui_draw.obj
+	@echo ... include/imgui/imgui_draw.i
+	@echo ... include/imgui/imgui_draw.s
+	@echo ... include/imgui/imgui_tables.obj
+	@echo ... include/imgui/imgui_tables.i
+	@echo ... include/imgui/imgui_tables.s
+	@echo ... include/imgui/imgui_widgets.obj
+	@echo ... include/imgui/imgui_widgets.i
+	@echo ... include/imgui/imgui_widgets.s
 	@echo ... src/glad.obj
 	@echo ... src/glad.i
 	@echo ... src/glad.s

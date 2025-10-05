@@ -95,6 +95,7 @@ CoraGraphics_EXTERNAL_OBJECTS =
 
 CoraGraphics.exe: CMakeFiles/CoraGraphics.dir/src/main.cpp.obj
 CoraGraphics.exe: CMakeFiles/CoraGraphics.dir/build.make
+CoraGraphics.exe: libimgui.a
 CoraGraphics.exe: _deps/glfw-build/src/libglfw3.a
 CoraGraphics.exe: libglad.a
 CoraGraphics.exe: CMakeFiles/CoraGraphics.dir/linkLibs.rsp

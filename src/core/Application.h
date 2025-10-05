@@ -1,9 +1,15 @@
 #include <string>
 #include "Window.h"
 
+#include <glm/glm.hpp>
+#include <glm/gtc/matrix_transform.hpp>
+#include <glm/gtc/type_ptr.hpp>
+
 #include "../renderer/Mesh.h"
 #include "../renderer/Shader.h"
-
+#include <imgui/imgui.h>
+#include <imgui/backends/imgui_impl_glfw.h>
+#include <imgui/backends/imgui_impl_opengl3.h>
 void processInput(GLFWwindow *window);
 class Application {
 public:
@@ -94,18 +100,77 @@ std::vector<unsigned int> indices = {
 }
 
 void Application::Run() {
+    // -----------------------------
+    // Setup ImGui context
+    // -----------------------------
+    IMGUI_CHECKVERSION();
+    ImGui::CreateContext();
+    ImGuiIO& io = ImGui::GetIO(); (void)io;
+    ImGui::StyleColorsDark();
+
+    ImGui_ImplGlfw_InitForOpenGL(window.GetNativeWindow(), true);
+    ImGui_ImplOpenGL3_Init("#version 130"); // OpenGL 3.0+ compatible
+
+    // Color variable controlled by GUI
+    float clear_color[3] = {0.2f, 0.3f, 0.3f};
+    float position[3] = {0,0,0};
+    float rotation[3] = {0,0,0};
+    float scale[3] = {1,1,1};
+    // Enable depth testing
+    glEnable(GL_DEPTH_TEST);
+
+    // Main loop
     while (!window.ShouldClose()) {
         processInput(window.GetNativeWindow());
-        glClearColor(0.2f, 0.3f, 0.3f, 1.0f);
+
+        // -----------------------------
+        // Start ImGui frame
+        // -----------------------------
+        ImGui_ImplOpenGL3_NewFrame();
+        ImGui_ImplGlfw_NewFrame();
+        ImGui::NewFrame();
+
+        // -----------------------------
+        // Example GUI
+        // -----------------------------
+
+        ImGui::Begin("Transform");
+        ImGui::Text("Change Object Transform");
+        ImGui::DragFloat3("Set position", position,0.05f);
+        ImGui::DragFloat3("Set roation", rotation,0.05f);
+        ImGui::DragFloat3("Set scale", scale,0.05f);
+        ImGui::End();
+
+        // -----------------------------
+        // Render scene
+        // -----------------------------
+        glClearColor(clear_color[0], clear_color[1], clear_color[2], 1.0f);
         glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
-        // Draw the square
+        squareMesh->transform.position = glm::vec3(position[0],position[1],position[2]);
+        squareMesh->transform.rotation = glm::vec3(rotation[0],rotation[1],rotation[2]);
+        squareMesh->transform.scale = glm::vec3(scale[0],scale[1],scale[2]);
 
+
+        shader->setMat4("model",squareMesh->transform.getModelMatrix());
         squareMesh->Draw(*shader);
-        
+
+        // -----------------------------
+        // Render ImGui
+        // -----------------------------
+        ImGui::Render();
+        ImGui_ImplOpenGL3_RenderDrawData(ImGui::GetDrawData());
+
         window.SwapBuffers();
         window.PollEvents();
     }
+
+    // -----------------------------
+    // Cleanup
+    // -----------------------------
+    ImGui_ImplOpenGL3_Shutdown();
+    ImGui_ImplGlfw_Shutdown();
+    ImGui::DestroyContext();
 
     delete squareMesh;
     delete shader;

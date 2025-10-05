@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/USER/Desktop/program/projects/CoraGraphics/include/imgui/backend/imgui_impl_glfw.cpp" "CMakeFiles/imgui.dir/include/imgui/backend/imgui_impl_glfw.cpp.obj" "gcc" "CMakeFiles/imgui.dir/include/imgui/backend/imgui_impl_glfw.cpp.obj.d"
-  "C:/Users/USER/Desktop/program/projects/CoraGraphics/include/imgui/backend/imgui_impl_opengl3.cpp" "CMakeFiles/imgui.dir/include/imgui/backend/imgui_impl_opengl3.cpp.obj" "gcc" "CMakeFiles/imgui.dir/include/imgui/backend/imgui_impl_opengl3.cpp.obj.d"
+  "C:/Users/USER/Desktop/program/projects/CoraGraphics/include/imgui/backends/imgui_impl_glfw.cpp" "CMakeFiles/imgui.dir/include/imgui/backends/imgui_impl_glfw.cpp.obj" "gcc" "CMakeFiles/imgui.dir/include/imgui/backends/imgui_impl_glfw.cpp.obj.d"
+  "C:/Users/USER/Desktop/program/projects/CoraGraphics/include/imgui/backends/imgui_impl_opengl3.cpp" "CMakeFiles/imgui.dir/include/imgui/backends/imgui_impl_opengl3.cpp.obj" "gcc" "CMakeFiles/imgui.dir/include/imgui/backends/imgui_impl_opengl3.cpp.obj.d"
   "C:/Users/USER/Desktop/program/projects/CoraGraphics/include/imgui/imgui.cpp" "CMakeFiles/imgui.dir/include/imgui/imgui.cpp.obj" "gcc" "CMakeFiles/imgui.dir/include/imgui/imgui.cpp.obj.d"
   "C:/Users/USER/Desktop/program/projects/CoraGraphics/include/imgui/imgui_draw.cpp" "CMakeFiles/imgui.dir/include/imgui/imgui_draw.cpp.obj" "gcc" "CMakeFiles/imgui.dir/include/imgui/imgui_draw.cpp.obj.d"
   "C:/Users/USER/Desktop/program/projects/CoraGraphics/include/imgui/imgui_tables.cpp" "CMakeFiles/imgui.dir/include/imgui/imgui_tables.cpp.obj" "gcc" "CMakeFiles/imgui.dir/include/imgui/imgui_tables.cpp.obj.d"

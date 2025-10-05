@@ -1,4 +1,5 @@
 C:/Users/USER/Desktop/program/projects/CoraGraphics/build/CMakeFiles/glad.dir
+C:/Users/USER/Desktop/program/projects/CoraGraphics/build/CMakeFiles/imgui.dir
 C:/Users/USER/Desktop/program/projects/CoraGraphics/build/CMakeFiles/CoraGraphics.dir
 C:/Users/USER/Desktop/program/projects/CoraGraphics/build/CMakeFiles/edit_cache.dir
 C:/Users/USER/Desktop/program/projects/CoraGraphics/build/CMakeFiles/rebuild_cache.dir

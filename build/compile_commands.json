@@ -7,6 +7,42 @@
 },
 {
   "directory": "C:/Users/USER/Desktop/program/projects/CoraGraphics/build",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/imgui.dir/includes_CXX.rsp -g -std=gnu++1z -o CMakeFiles\\imgui.dir\\include\\imgui\\imgui.cpp.obj -c C:\\Users\\USER\\Desktop\\program\\projects\\CoraGraphics\\include\\imgui\\imgui.cpp",
+  "file": "C:/Users/USER/Desktop/program/projects/CoraGraphics/include/imgui/imgui.cpp",
+  "output": "CMakeFiles/imgui.dir/include/imgui/imgui.cpp.obj"
+},
+{
+  "directory": "C:/Users/USER/Desktop/program/projects/CoraGraphics/build",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/imgui.dir/includes_CXX.rsp -g -std=gnu++1z -o CMakeFiles\\imgui.dir\\include\\imgui\\imgui_draw.cpp.obj -c C:\\Users\\USER\\Desktop\\program\\projects\\CoraGraphics\\include\\imgui\\imgui_draw.cpp",
+  "file": "C:/Users/USER/Desktop/program/projects/CoraGraphics/include/imgui/imgui_draw.cpp",
+  "output": "CMakeFiles/imgui.dir/include/imgui/imgui_draw.cpp.obj"
+},
+{
+  "directory": "C:/Users/USER/Desktop/program/projects/CoraGraphics/build",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/imgui.dir/includes_CXX.rsp -g -std=gnu++1z -o CMakeFiles\\imgui.dir\\include\\imgui\\imgui_tables.cpp.obj -c C:\\Users\\USER\\Desktop\\program\\projects\\CoraGraphics\\include\\imgui\\imgui_tables.cpp",
+  "file": "C:/Users/USER/Desktop/program/projects/CoraGraphics/include/imgui/imgui_tables.cpp",
+  "output": "CMakeFiles/imgui.dir/include/imgui/imgui_tables.cpp.obj"
+},
+{
+  "directory": "C:/Users/USER/Desktop/program/projects/CoraGraphics/build",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/imgui.dir/includes_CXX.rsp -g -std=gnu++1z -o CMakeFiles\\imgui.dir\\include\\imgui\\imgui_widgets.cpp.obj -c C:\\Users\\USER\\Desktop\\program\\projects\\CoraGraphics\\include\\imgui\\imgui_widgets.cpp",
+  "file": "C:/Users/USER/Desktop/program/projects/CoraGraphics/include/imgui/imgui_widgets.cpp",
+  "output": "CMakeFiles/imgui.dir/include/imgui/imgui_widgets.cpp.obj"
+},
+{
+  "directory": "C:/Users/USER/Desktop/program/projects/CoraGraphics/build",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/imgui.dir/includes_CXX.rsp -g -std=gnu++1z -o CMakeFiles\\imgui.dir\\include\\imgui\\backends\\imgui_impl_glfw.cpp.obj -c C:\\Users\\USER\\Desktop\\program\\projects\\CoraGraphics\\include\\imgui\\backends\\imgui_impl_glfw.cpp",
+  "file": "C:/Users/USER/Desktop/program/projects/CoraGraphics/include/imgui/backends/imgui_impl_glfw.cpp",
+  "output": "CMakeFiles/imgui.dir/include/imgui/backends/imgui_impl_glfw.cpp.obj"
+},
+{
+  "directory": "C:/Users/USER/Desktop/program/projects/CoraGraphics/build",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/imgui.dir/includes_CXX.rsp -g -std=gnu++1z -o CMakeFiles\\imgui.dir\\include\\imgui\\backends\\imgui_impl_opengl3.cpp.obj -c C:\\Users\\USER\\Desktop\\program\\projects\\CoraGraphics\\include\\imgui\\backends\\imgui_impl_opengl3.cpp",
+  "file": "C:/Users/USER/Desktop/program/projects/CoraGraphics/include/imgui/backends/imgui_impl_opengl3.cpp",
+  "output": "CMakeFiles/imgui.dir/include/imgui/backends/imgui_impl_opengl3.cpp.obj"
+},
+{
+  "directory": "C:/Users/USER/Desktop/program/projects/CoraGraphics/build",
   "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/CoraGraphics.dir/includes_CXX.rsp -g -std=gnu++1z -o CMakeFiles\\CoraGraphics.dir\\src\\main.cpp.obj -c C:\\Users\\USER\\Desktop\\program\\projects\\CoraGraphics\\src\\main.cpp",
   "file": "C:/Users/USER/Desktop/program/projects/CoraGraphics/src/main.cpp",
   "output": "CMakeFiles/CoraGraphics.dir/src/main.cpp.obj"

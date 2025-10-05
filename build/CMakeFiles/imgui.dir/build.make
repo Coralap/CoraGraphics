@@ -131,35 +131,35 @@ CMakeFiles/imgui.dir/include/imgui/imgui_widgets.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/imgui.dir/include/imgui/imgui_widgets.cpp.s"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\USER\Desktop\program\projects\CoraGraphics\include\imgui\imgui_widgets.cpp -o CMakeFiles\imgui.dir\include\imgui\imgui_widgets.cpp.s
 
-CMakeFiles/imgui.dir/include/imgui/backend/imgui_impl_glfw.cpp.obj: CMakeFiles/imgui.dir/flags.make
-CMakeFiles/imgui.dir/include/imgui/backend/imgui_impl_glfw.cpp.obj: CMakeFiles/imgui.dir/includes_CXX.rsp
-CMakeFiles/imgui.dir/include/imgui/backend/imgui_impl_glfw.cpp.obj: C:/Users/USER/Desktop/program/projects/CoraGraphics/include/imgui/backend/imgui_impl_glfw.cpp
-CMakeFiles/imgui.dir/include/imgui/backend/imgui_impl_glfw.cpp.obj: CMakeFiles/imgui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\USER\Desktop\program\projects\CoraGraphics\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/imgui.dir/include/imgui/backend/imgui_impl_glfw.cpp.obj"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/imgui.dir/include/imgui/backend/imgui_impl_glfw.cpp.obj -MF CMakeFiles\imgui.dir\include\imgui\backend\imgui_impl_glfw.cpp.obj.d -o CMakeFiles\imgui.dir\include\imgui\backend\imgui_impl_glfw.cpp.obj -c C:\Users\USER\Desktop\program\projects\CoraGraphics\include\imgui\backend\imgui_impl_glfw.cpp
+CMakeFiles/imgui.dir/include/imgui/backends/imgui_impl_glfw.cpp.obj: CMakeFiles/imgui.dir/flags.make
+CMakeFiles/imgui.dir/include/imgui/backends/imgui_impl_glfw.cpp.obj: CMakeFiles/imgui.dir/includes_CXX.rsp
+CMakeFiles/imgui.dir/include/imgui/backends/imgui_impl_glfw.cpp.obj: C:/Users/USER/Desktop/program/projects/CoraGraphics/include/imgui/backends/imgui_impl_glfw.cpp
+CMakeFiles/imgui.dir/include/imgui/backends/imgui_impl_glfw.cpp.obj: CMakeFiles/imgui.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\USER\Desktop\program\projects\CoraGraphics\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/imgui.dir/include/imgui/backends/imgui_impl_glfw.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/imgui.dir/include/imgui/backends/imgui_impl_glfw.cpp.obj -MF CMakeFiles\imgui.dir\include\imgui\backends\imgui_impl_glfw.cpp.obj.d -o CMakeFiles\imgui.dir\include\imgui\backends\imgui_impl_glfw.cpp.obj -c C:\Users\USER\Desktop\program\projects\CoraGraphics\include\imgui\backends\imgui_impl_glfw.cpp
 
-CMakeFiles/imgui.dir/include/imgui/backend/imgui_impl_glfw.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/imgui.dir/include/imgui/backend/imgui_impl_glfw.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\USER\Desktop\program\projects\CoraGraphics\include\imgui\backend\imgui_impl_glfw.cpp > CMakeFiles\imgui.dir\include\imgui\backend\imgui_impl_glfw.cpp.i
+CMakeFiles/imgui.dir/include/imgui/backends/imgui_impl_glfw.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/imgui.dir/include/imgui/backends/imgui_impl_glfw.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\USER\Desktop\program\projects\CoraGraphics\include\imgui\backends\imgui_impl_glfw.cpp > CMakeFiles\imgui.dir\include\imgui\backends\imgui_impl_glfw.cpp.i
 
-CMakeFiles/imgui.dir/include/imgui/backend/imgui_impl_glfw.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/imgui.dir/include/imgui/backend/imgui_impl_glfw.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\USER\Desktop\program\projects\CoraGraphics\include\imgui\backend\imgui_impl_glfw.cpp -o CMakeFiles\imgui.dir\include\imgui\backend\imgui_impl_glfw.cpp.s
+CMakeFiles/imgui.dir/include/imgui/backends/imgui_impl_glfw.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/imgui.dir/include/imgui/backends/imgui_impl_glfw.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\USER\Desktop\program\projects\CoraGraphics\include\imgui\backends\imgui_impl_glfw.cpp -o CMakeFiles\imgui.dir\include\imgui\backends\imgui_impl_glfw.cpp.s
 
-CMakeFiles/imgui.dir/include/imgui/backend/imgui_impl_opengl3.cpp.obj: CMakeFiles/imgui.dir/flags.make
-CMakeFiles/imgui.dir/include/imgui/backend/imgui_impl_opengl3.cpp.obj: CMakeFiles/imgui.dir/includes_CXX.rsp
-CMakeFiles/imgui.dir/include/imgui/backend/imgui_impl_opengl3.cpp.obj: C:/Users/USER/Desktop/program/projects/CoraGraphics/include/imgui/backend/imgui_impl_opengl3.cpp
-CMakeFiles/imgui.dir/include/imgui/backend/imgui_impl_opengl3.cpp.obj: CMakeFiles/imgui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\USER\Desktop\program\projects\CoraGraphics\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/imgui.dir/include/imgui/backend/imgui_impl_opengl3.cpp.obj"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/imgui.dir/include/imgui/backend/imgui_impl_opengl3.cpp.obj -MF CMakeFiles\imgui.dir\include\imgui\backend\imgui_impl_opengl3.cpp.obj.d -o CMakeFiles\imgui.dir\include\imgui\backend\imgui_impl_opengl3.cpp.obj -c C:\Users\USER\Desktop\program\projects\CoraGraphics\include\imgui\backend\imgui_impl_opengl3.cpp
+CMakeFiles/imgui.dir/include/imgui/backends/imgui_impl_opengl3.cpp.obj: CMakeFiles/imgui.dir/flags.make
+CMakeFiles/imgui.dir/include/imgui/backends/imgui_impl_opengl3.cpp.obj: CMakeFiles/imgui.dir/includes_CXX.rsp
+CMakeFiles/imgui.dir/include/imgui/backends/imgui_impl_opengl3.cpp.obj: C:/Users/USER/Desktop/program/projects/CoraGraphics/include/imgui/backends/imgui_impl_opengl3.cpp
+CMakeFiles/imgui.dir/include/imgui/backends/imgui_impl_opengl3.cpp.obj: CMakeFiles/imgui.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\USER\Desktop\program\projects\CoraGraphics\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/imgui.dir/include/imgui/backends/imgui_impl_opengl3.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/imgui.dir/include/imgui/backends/imgui_impl_opengl3.cpp.obj -MF CMakeFiles\imgui.dir\include\imgui\backends\imgui_impl_opengl3.cpp.obj.d -o CMakeFiles\imgui.dir\include\imgui\backends\imgui_impl_opengl3.cpp.obj -c C:\Users\USER\Desktop\program\projects\CoraGraphics\include\imgui\backends\imgui_impl_opengl3.cpp
 
-CMakeFiles/imgui.dir/include/imgui/backend/imgui_impl_opengl3.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/imgui.dir/include/imgui/backend/imgui_impl_opengl3.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\USER\Desktop\program\projects\CoraGraphics\include\imgui\backend\imgui_impl_opengl3.cpp > CMakeFiles\imgui.dir\include\imgui\backend\imgui_impl_opengl3.cpp.i
+CMakeFiles/imgui.dir/include/imgui/backends/imgui_impl_opengl3.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/imgui.dir/include/imgui/backends/imgui_impl_opengl3.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\USER\Desktop\program\projects\CoraGraphics\include\imgui\backends\imgui_impl_opengl3.cpp > CMakeFiles\imgui.dir\include\imgui\backends\imgui_impl_opengl3.cpp.i
 
-CMakeFiles/imgui.dir/include/imgui/backend/imgui_impl_opengl3.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/imgui.dir/include/imgui/backend/imgui_impl_opengl3.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\USER\Desktop\program\projects\CoraGraphics\include\imgui\backend\imgui_impl_opengl3.cpp -o CMakeFiles\imgui.dir\include\imgui\backend\imgui_impl_opengl3.cpp.s
+CMakeFiles/imgui.dir/include/imgui/backends/imgui_impl_opengl3.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/imgui.dir/include/imgui/backends/imgui_impl_opengl3.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\USER\Desktop\program\projects\CoraGraphics\include\imgui\backends\imgui_impl_opengl3.cpp -o CMakeFiles\imgui.dir\include\imgui\backends\imgui_impl_opengl3.cpp.s
 
 # Object files for target imgui
 imgui_OBJECTS = \
@@ -167,8 +167,8 @@ imgui_OBJECTS = \
 "CMakeFiles/imgui.dir/include/imgui/imgui_draw.cpp.obj" \
 "CMakeFiles/imgui.dir/include/imgui/imgui_tables.cpp.obj" \
 "CMakeFiles/imgui.dir/include/imgui/imgui_widgets.cpp.obj" \
-"CMakeFiles/imgui.dir/include/imgui/backend/imgui_impl_glfw.cpp.obj" \
-"CMakeFiles/imgui.dir/include/imgui/backend/imgui_impl_opengl3.cpp.obj"
+"CMakeFiles/imgui.dir/include/imgui/backends/imgui_impl_glfw.cpp.obj" \
+"CMakeFiles/imgui.dir/include/imgui/backends/imgui_impl_opengl3.cpp.obj"
 
 # External object files for target imgui
 imgui_EXTERNAL_OBJECTS =
@@ -177,8 +177,8 @@ libimgui.a: CMakeFiles/imgui.dir/include/imgui/imgui.cpp.obj
 libimgui.a: CMakeFiles/imgui.dir/include/imgui/imgui_draw.cpp.obj
 libimgui.a: CMakeFiles/imgui.dir/include/imgui/imgui_tables.cpp.obj
 libimgui.a: CMakeFiles/imgui.dir/include/imgui/imgui_widgets.cpp.obj
-libimgui.a: CMakeFiles/imgui.dir/include/imgui/backend/imgui_impl_glfw.cpp.obj
-libimgui.a: CMakeFiles/imgui.dir/include/imgui/backend/imgui_impl_opengl3.cpp.obj
+libimgui.a: CMakeFiles/imgui.dir/include/imgui/backends/imgui_impl_glfw.cpp.obj
+libimgui.a: CMakeFiles/imgui.dir/include/imgui/backends/imgui_impl_opengl3.cpp.obj
 libimgui.a: CMakeFiles/imgui.dir/build.make
 libimgui.a: CMakeFiles/imgui.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\USER\Desktop\program\projects\CoraGraphics\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX static library libimgui.a"

@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/imgui.dir/include/imgui/backend/imgui_impl_glfw.cpp.obj"
-  "CMakeFiles/imgui.dir/include/imgui/backend/imgui_impl_glfw.cpp.obj.d"
-  "CMakeFiles/imgui.dir/include/imgui/backend/imgui_impl_opengl3.cpp.obj"
-  "CMakeFiles/imgui.dir/include/imgui/backend/imgui_impl_opengl3.cpp.obj.d"
+  "CMakeFiles/imgui.dir/include/imgui/backends/imgui_impl_glfw.cpp.obj"
+  "CMakeFiles/imgui.dir/include/imgui/backends/imgui_impl_glfw.cpp.obj.d"
+  "CMakeFiles/imgui.dir/include/imgui/backends/imgui_impl_opengl3.cpp.obj"
+  "CMakeFiles/imgui.dir/include/imgui/backends/imgui_impl_opengl3.cpp.obj.d"
   "CMakeFiles/imgui.dir/include/imgui/imgui.cpp.obj"
   "CMakeFiles/imgui.dir/include/imgui/imgui.cpp.obj.d"
   "CMakeFiles/imgui.dir/include/imgui/imgui_draw.cpp.obj"

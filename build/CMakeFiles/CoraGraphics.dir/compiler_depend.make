@@ -26,6 +26,10 @@ CMakeFiles/CoraGraphics.dir/src/main.cpp.obj: C:/Users/USER/Desktop/program/proj
   C:/Users/USER/Desktop/program/projects/CoraGraphics/include/glm/vec2.hpp \
   C:/Users/USER/Desktop/program/projects/CoraGraphics/include/glm/vec3.hpp \
   C:/Users/USER/Desktop/program/projects/CoraGraphics/include/glm/vec4.hpp \
+  C:/Users/USER/Desktop/program/projects/CoraGraphics/include/imgui/backends/imgui_impl_glfw.h \
+  C:/Users/USER/Desktop/program/projects/CoraGraphics/include/imgui/backends/imgui_impl_opengl3.h \
+  C:/Users/USER/Desktop/program/projects/CoraGraphics/include/imgui/imconfig.h \
+  C:/Users/USER/Desktop/program/projects/CoraGraphics/include/imgui/imgui.h \
   C:/Users/USER/Desktop/program/projects/CoraGraphics/include/stb/stb_image.h \
   C:/Users/USER/Desktop/program/projects/CoraGraphics/src/core/Application.h \
   C:/Users/USER/Desktop/program/projects/CoraGraphics/src/core/Window.h \
@@ -327,6 +331,7 @@ CMakeFiles/CoraGraphics.dir/src/main.cpp.obj: C:/Users/USER/Desktop/program/proj
   c:/users/user/desktop/program/projects/coragraphics/include/glm/vector_relational.hpp \
   c:/users/user/desktop/program/projects/coragraphics/src/renderer/Shader.h \
   c:/users/user/desktop/program/projects/coragraphics/src/renderer/Texture.h \
+  c:/users/user/desktop/program/projects/coragraphics/src/renderer/Transform.h \
   c:/users/user/desktop/program/projects/coragraphics/src/renderer/mesh.h \
   c:/users/user/desktop/program/projects/coragraphics/src/renderer/shader.h
 
@@ -363,6 +368,10 @@ c:/users/user/desktop/program/projects/coragraphics/include/glm/ext/vector_uint3
 
 C:/Users/USER/Desktop/program/projects/CoraGraphics/include/KHR/khrplatform.h:
 
+c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/debug/assertions.h:
+
+C:/Users/USER/Desktop/program/projects/CoraGraphics/include/imgui/backends/imgui_impl_glfw.h:
+
 c:/users/user/desktop/program/projects/coragraphics/include/glm/ext/scalar_int_sized.hpp:
 
 C:/Users/USER/Desktop/program/projects/CoraGraphics/include/glm/glm.hpp:
@@ -374,6 +383,8 @@ C:/Users/USER/Desktop/program/projects/CoraGraphics/include/glm/detail/_fixes.hp
 C:/Users/USER/Desktop/program/projects/CoraGraphics/include/glm/detail/func_trigonometric.inl:
 
 C:/Users/USER/Desktop/program/projects/CoraGraphics/include/glm/detail/qualifier.hpp:
+
+C:/Users/USER/Desktop/program/projects/CoraGraphics/include/imgui/imgui.h:
 
 c:/users/user/desktop/program/projects/coragraphics/include/glm/ext/vector_uint1_sized.hpp:
 
@@ -435,7 +446,17 @@ c:/users/user/desktop/program/projects/coragraphics/include/glm/detail/type_mat2
 
 C:/Users/USER/Desktop/program/projects/CoraGraphics/include/glm/vec4.hpp:
 
-c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/concept_check.h:
+c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/debug/debug.h:
+
+c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/basic_ios.tcc:
+
+c:/mingw/include/string.h:
+
+c:/users/user/desktop/program/projects/coragraphics/src/renderer/shader.h:
+
+C:/Users/USER/Desktop/program/projects/CoraGraphics/include/imgui/backends/imgui_impl_opengl3.h:
+
+C:/Users/USER/Desktop/program/projects/CoraGraphics/include/imgui/imconfig.h:
 
 C:/Users/USER/Desktop/program/projects/CoraGraphics/src/core/Application.h:
 
@@ -445,15 +466,7 @@ c:/users/user/desktop/program/projects/coragraphics/include/glm/mat2x3.hpp:
 
 c:/mingw/include/assert.h:
 
-c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/codecvt.h:
-
 c:/mingw/include/ctype.h:
-
-c:/users/user/desktop/program/projects/coragraphics/include/glm/ext/vector_int3_sized.hpp:
-
-c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/exception:
-
-c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/cpp_type_traits.h:
 
 c:/mingw/include/direct.h:
 
@@ -484,12 +497,6 @@ c:/users/user/desktop/program/projects/coragraphics/include/glm/ext/matrix_float
 c:/mingw/include/sdkddkver.h:
 
 c:/mingw/include/stdio.h:
-
-c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/debug/debug.h:
-
-c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/basic_ios.tcc:
-
-c:/mingw/include/string.h:
 
 c:/mingw/include/strings.h:
 
@@ -528,6 +535,16 @@ c:/users/user/desktop/program/projects/coragraphics/include/glm/detail/type_quat
 c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/error_constants.h:
 
 c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/char_traits.h:
+
+c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/codecvt.h:
+
+c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/concept_check.h:
+
+c:/users/user/desktop/program/projects/coragraphics/include/glm/ext/vector_int3_sized.hpp:
+
+c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/exception:
+
+c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/cpp_type_traits.h:
 
 c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/ios_base.h:
 
@@ -656,8 +673,6 @@ c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/cstdio:
 c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/cstring:
 
 c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/cwchar:
-
-c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/debug/assertions.h:
 
 c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/ext/alloc_traits.h:
 
@@ -979,6 +994,6 @@ c:/users/user/desktop/program/projects/coragraphics/src/renderer/Shader.h:
 
 c:/users/user/desktop/program/projects/coragraphics/src/renderer/Texture.h:
 
-c:/users/user/desktop/program/projects/coragraphics/src/renderer/mesh.h:
+c:/users/user/desktop/program/projects/coragraphics/src/renderer/Transform.h:
 
-c:/users/user/desktop/program/projects/coragraphics/src/renderer/shader.h:
+c:/users/user/desktop/program/projects/coragraphics/src/renderer/mesh.h:

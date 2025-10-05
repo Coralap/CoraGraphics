@@ -1,12 +1,14 @@
 #include <vector>
 #include "Shader.h"
 #include "Texture.h"
+#include "Transform.h"
 class Mesh {
 public:
     std::vector<float> vertices; 
     std::vector<unsigned int> indices;  
     std::string texturePath;
     Texture *texture;
+    Transform transform;
 
     Mesh(const std::vector<float>& verts, const std::vector<unsigned int>& inds,std::string texturePath)
         : vertices(verts), indices(inds),texturePath(texturePath)

@@ -27,6 +27,10 @@ CMakeFiles/CoraGraphics.dir/src/main.cpp.obj
  C:/Users/USER/Desktop/program/projects/CoraGraphics/include/glm/vec2.hpp
  C:/Users/USER/Desktop/program/projects/CoraGraphics/include/glm/vec3.hpp
  C:/Users/USER/Desktop/program/projects/CoraGraphics/include/glm/vec4.hpp
+ C:/Users/USER/Desktop/program/projects/CoraGraphics/include/imgui/backends/imgui_impl_glfw.h
+ C:/Users/USER/Desktop/program/projects/CoraGraphics/include/imgui/backends/imgui_impl_opengl3.h
+ C:/Users/USER/Desktop/program/projects/CoraGraphics/include/imgui/imconfig.h
+ C:/Users/USER/Desktop/program/projects/CoraGraphics/include/imgui/imgui.h
  C:/Users/USER/Desktop/program/projects/CoraGraphics/include/stb/stb_image.h
  C:/Users/USER/Desktop/program/projects/CoraGraphics/src/core/Application.h
  C:/Users/USER/Desktop/program/projects/CoraGraphics/src/core/Window.h
@@ -328,6 +332,7 @@ CMakeFiles/CoraGraphics.dir/src/main.cpp.obj
  c:/users/user/desktop/program/projects/coragraphics/include/glm/vector_relational.hpp
  c:/users/user/desktop/program/projects/coragraphics/src/renderer/Shader.h
  c:/users/user/desktop/program/projects/coragraphics/src/renderer/Texture.h
+ c:/users/user/desktop/program/projects/coragraphics/src/renderer/Transform.h
  c:/users/user/desktop/program/projects/coragraphics/src/renderer/mesh.h
  c:/users/user/desktop/program/projects/coragraphics/src/renderer/shader.h
 
