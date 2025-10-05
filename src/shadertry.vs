@@ -9,6 +9,8 @@ out vec3 Normal;
 out vec2 TexCoords;
 
 uniform mat4 model;
+uniform mat4 projection;
+uniform mat4 view;
 
 void main()
 {
@@ -16,5 +18,5 @@ void main()
     Normal = aNormal;  // pass through normals
     TexCoords = aTexCoords; // pass through texture coordinates
 
-    gl_Position = model * vec4(aPos, 1.0); // no transformations yet
+    gl_Position = projection * view * model * vec4(aPos, 1.0); // no transformations yet
 }

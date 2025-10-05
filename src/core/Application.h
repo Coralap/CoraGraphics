@@ -5,6 +5,8 @@
 #include <glm/gtc/matrix_transform.hpp>
 #include <glm/gtc/type_ptr.hpp>
 
+
+#include "../camera/camera.h"
 #include "../renderer/Mesh.h"
 #include "../renderer/Shader.h"
 #include <imgui/imgui.h>
@@ -22,19 +24,20 @@ public:
     Mesh* squareMesh;
     Texture* texture;
 
+    Camera* camera;
     Application(unsigned int width, unsigned int height, const std::string name);
     void Run();
 };
 
 Application::Application(unsigned int width, unsigned int height, const std::string name)
     : width(width), height(height), name(name), window(width, height, name)
-{
+{   
     if (!gladLoadGLLoader((GLADloadproc)glfwGetProcAddress))
     {
         std::cout << "Failed to initialize GLAD" << std::endl;
         glfwTerminate();
     }    
-
+    camera = new Camera(glm::vec3(0.0f,0.0f,3.0f));
     // Simple vertex and fragment shaders
     shader = new Shader("../src/shadertry.vs", "../src/shadertry.fs");
 
@@ -97,6 +100,7 @@ std::vector<unsigned int> indices = {
 
     squareMesh = new Mesh(vertices, indices,"../src/container.jpg");
 
+
 }
 
 void Application::Run() {
@@ -118,7 +122,8 @@ void Application::Run() {
     float scale[3] = {1,1,1};
     // Enable depth testing
     glEnable(GL_DEPTH_TEST);
-
+    glm::mat4 projection;
+    projection = glm::perspective(glm::radians(45.0f), 800.0f / 600.0f, 0.1f, 100.0f);
     // Main loop
     while (!window.ShouldClose()) {
         processInput(window.GetNativeWindow());
@@ -138,7 +143,7 @@ void Application::Run() {
         ImGui::Text("Change Object Transform");
         ImGui::DragFloat3("Set position", position,0.05f);
         ImGui::DragFloat3("Set roation", rotation,0.05f);
-        ImGui::DragFloat3("Set scale", scale,0.05f);
+        ImGui::DragFloat3("Set scale", scale,0.05f,0.0f);
         ImGui::End();
 
         // -----------------------------
@@ -153,6 +158,8 @@ void Application::Run() {
 
 
         shader->setMat4("model",squareMesh->transform.getModelMatrix());
+        shader->setMat4("projection",projection);
+        shader->setMat4("view", camera->GetViewMatrix());
         squareMesh->Draw(*shader);
 
         // -----------------------------

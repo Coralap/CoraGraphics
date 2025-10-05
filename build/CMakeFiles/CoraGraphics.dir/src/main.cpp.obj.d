@@ -305,6 +305,7 @@ CMakeFiles/CoraGraphics.dir/src/main.cpp.obj: \
  c:\mingw\include\string.h c:\mingw\include\strings.h \
  c:\mingw\include\wchar.h \
  C:/Users/USER/Desktop/program/projects/CoraGraphics/include/glm/gtc/type_ptr.inl \
+ c:\users\user\desktop\program\projects\coragraphics\src\camera\camera.h \
  c:\users\user\desktop\program\projects\coragraphics\src\renderer\mesh.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\vector \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_construct.h \
