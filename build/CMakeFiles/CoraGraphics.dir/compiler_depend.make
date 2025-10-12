@@ -330,9 +330,9 @@ CMakeFiles/CoraGraphics.dir/src/main.cpp.obj: C:/Users/USER/Desktop/program/proj
   c:/users/user/desktop/program/projects/coragraphics/include/glm/simd/platform.h \
   c:/users/user/desktop/program/projects/coragraphics/include/glm/vector_relational.hpp \
   c:/users/user/desktop/program/projects/coragraphics/src/camera/camera.h \
+  c:/users/user/desktop/program/projects/coragraphics/src/core/transform.h \
   c:/users/user/desktop/program/projects/coragraphics/src/renderer/Shader.h \
   c:/users/user/desktop/program/projects/coragraphics/src/renderer/Texture.h \
-  c:/users/user/desktop/program/projects/coragraphics/src/renderer/Transform.h \
   c:/users/user/desktop/program/projects/coragraphics/src/renderer/mesh.h \
   c:/users/user/desktop/program/projects/coragraphics/src/renderer/prefabs.h \
   c:/users/user/desktop/program/projects/coragraphics/src/renderer/shader.h
@@ -966,6 +966,8 @@ c:/users/user/desktop/program/projects/coragraphics/include/glm/ext/vector_relat
 
 c:/users/user/desktop/program/projects/coragraphics/include/glm/ext/vector_uint1.hpp:
 
+c:/users/user/desktop/program/projects/coragraphics/src/core/transform.h:
+
 c:/users/user/desktop/program/projects/coragraphics/include/glm/ext/vector_uint3_sized.hpp:
 
 c:/users/user/desktop/program/projects/coragraphics/include/glm/ext/vector_uint4.hpp:
@@ -999,7 +1001,5 @@ c:/users/user/desktop/program/projects/coragraphics/include/glm/vector_relationa
 c:/users/user/desktop/program/projects/coragraphics/src/renderer/Shader.h:
 
 c:/users/user/desktop/program/projects/coragraphics/src/renderer/Texture.h:
-
-c:/users/user/desktop/program/projects/coragraphics/src/renderer/Transform.h:
 
 c:/users/user/desktop/program/projects/coragraphics/src/renderer/mesh.h:

@@ -9,7 +9,9 @@
 
 
 #include "../camera/Camera.h"
-#include "../renderer/Mesh.h"
+#include "../renderer/Entity.h"
+#include "../renderer/Model.h"
+
 #include "../renderer/Shader.h"
 #include "../renderer/Prefabs.h"
 
@@ -26,7 +28,7 @@ public:
     Window window;
 
     Shader* shader;
-    std::vector<Mesh*> Meshes;  
+    std::vector<Entity*> Entities;  
     Texture* texture;
 
     Camera* camera;
@@ -49,11 +51,16 @@ Application::Application(unsigned int width, unsigned int height, const std::str
  
 
 
+    
 
-    Meshes.push_back(Prefabs::Cube("../src/container.jpg"));
-    Meshes.push_back(Prefabs::Cube("../src/container.jpg"));
-    Meshes.push_back(Prefabs::Pyramid("../src/container.jpg"));
-
+    Model* cubemodel = new Model();
+    cubemodel->AddMesh(Prefabs::Cube("../src/container.jpg"));
+    Model* pyramidModel = new Model();
+    pyramidModel->AddMesh(Prefabs::Pyramid("../src/container.jpg"));
+    Entity* entity1 = new Entity(cubemodel);
+    Entity* entity2 = new Entity(pyramidModel);
+    Entities.push_back(entity1);
+    Entities.push_back(entity2);
 
 }
 
@@ -91,13 +98,12 @@ void Application::Run() {
 
         
         int index =0;
-        for(Mesh* mesh : Meshes){
-            mesh->transform.position.x=index*2;
-            mesh->transform.position.z=-5;
-            shader->setMat4("model",mesh->transform.getModelMatrix());
+        for(Entity* entity : Entities){
+            entity->transform.position.x=index*2;
+            entity->transform.position.z=-5;
             shader->setMat4("projection",projection);
             shader->setMat4("view", camera->GetViewMatrix());
-            mesh->Draw(*shader);
+            entity->Draw(*shader);
             index ++;
         }
 
@@ -118,8 +124,8 @@ void Application::Run() {
     ImGui_ImplOpenGL3_Shutdown();
     ImGui_ImplGlfw_Shutdown();
     ImGui::DestroyContext();
-    for (Mesh* mesh : Meshes)
-        delete mesh;
+    for (Entity* entity : Entities)
+        delete entity;
     delete shader;
     glfwTerminate();
 }

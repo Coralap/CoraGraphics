@@ -312,7 +312,7 @@ CMakeFiles/CoraGraphics.dir/src/main.cpp.obj: \
  c:\mingw\include\wchar.h \
  C:/Users/USER/Desktop/program/projects/CoraGraphics/include/glm/gtc/type_ptr.inl \
  c:\users\user\desktop\program\projects\coragraphics\src\camera\camera.h \
- c:\users\user\desktop\program\projects\coragraphics\src\renderer\mesh.h \
+ c:\users\user\desktop\program\projects\coragraphics\src\renderer\entity.h \
  c:\users\user\desktop\program\projects\coragraphics\src\renderer\Shader.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\fstream \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\codecvt.h \
@@ -321,11 +321,13 @@ CMakeFiles/CoraGraphics.dir/src/main.cpp.obj: \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\fstream.tcc \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\sstream \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\sstream.tcc \
+ c:\users\user\desktop\program\projects\coragraphics\src\renderer\Model.h \
  c:\users\user\desktop\program\projects\coragraphics\src\renderer\Texture.h \
  C:/Users/USER/Desktop/program/projects/CoraGraphics/include/stb/stb_image.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\stdlib.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\math.h \
- c:\users\user\desktop\program\projects\coragraphics\src\renderer\Transform.h \
+ c:\users\user\desktop\program\projects\coragraphics\src\renderer\Mesh.h \
+ c:\users\user\desktop\program\projects\coragraphics\src\core\transform.h \
  c:\users\user\desktop\program\projects\coragraphics\src\renderer\shader.h \
  c:\users\user\desktop\program\projects\coragraphics\src\renderer\prefabs.h \
  C:/Users/USER/Desktop/program/projects/CoraGraphics/include/imgui/imgui.h \
