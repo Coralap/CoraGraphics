@@ -330,9 +330,11 @@ CMakeFiles/CoraGraphics.dir/src/main.cpp.obj
  c:/users/user/desktop/program/projects/coragraphics/include/glm/matrix.hpp
  c:/users/user/desktop/program/projects/coragraphics/include/glm/simd/platform.h
  c:/users/user/desktop/program/projects/coragraphics/include/glm/vector_relational.hpp
+ c:/users/user/desktop/program/projects/coragraphics/src/camera/camera.h
  c:/users/user/desktop/program/projects/coragraphics/src/renderer/Shader.h
  c:/users/user/desktop/program/projects/coragraphics/src/renderer/Texture.h
  c:/users/user/desktop/program/projects/coragraphics/src/renderer/Transform.h
  c:/users/user/desktop/program/projects/coragraphics/src/renderer/mesh.h
+ c:/users/user/desktop/program/projects/coragraphics/src/renderer/prefabs.h
  c:/users/user/desktop/program/projects/coragraphics/src/renderer/shader.h
 

@@ -105,6 +105,12 @@ CMakeFiles/CoraGraphics.dir/src/main.cpp.obj: \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\istream.tcc \
  C:\Users\USER\Desktop\program\projects\CoraGraphics\src\core/Application.h \
  C:\Users\USER\Desktop\program\projects\CoraGraphics\src\core/Window.h \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\vector \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_construct.h \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_uninitialized.h \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_vector.h \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_bvector.h \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\vector.tcc \
  C:/Users/USER/Desktop/program/projects/CoraGraphics/include/glm/glm.hpp \
  C:/Users/USER/Desktop/program/projects/CoraGraphics/include/glm/detail/_fixes.hpp \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\cmath c:\mingw\include\math.h \
@@ -307,12 +313,6 @@ CMakeFiles/CoraGraphics.dir/src/main.cpp.obj: \
  C:/Users/USER/Desktop/program/projects/CoraGraphics/include/glm/gtc/type_ptr.inl \
  c:\users\user\desktop\program\projects\coragraphics\src\camera\camera.h \
  c:\users\user\desktop\program\projects\coragraphics\src\renderer\mesh.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\vector \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_construct.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_uninitialized.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_vector.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_bvector.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\vector.tcc \
  c:\users\user\desktop\program\projects\coragraphics\src\renderer\Shader.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\fstream \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\codecvt.h \
@@ -327,6 +327,7 @@ CMakeFiles/CoraGraphics.dir/src/main.cpp.obj: \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\math.h \
  c:\users\user\desktop\program\projects\coragraphics\src\renderer\Transform.h \
  c:\users\user\desktop\program\projects\coragraphics\src\renderer\shader.h \
+ c:\users\user\desktop\program\projects\coragraphics\src\renderer\prefabs.h \
  C:/Users/USER/Desktop/program/projects/CoraGraphics/include/imgui/imgui.h \
  C:/Users/USER/Desktop/program/projects/CoraGraphics/include/imgui/imconfig.h \
  C:/Users/USER/Desktop/program/projects/CoraGraphics/include/imgui/backends/imgui_impl_glfw.h \

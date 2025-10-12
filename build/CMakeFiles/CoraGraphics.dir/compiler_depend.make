@@ -329,10 +329,12 @@ CMakeFiles/CoraGraphics.dir/src/main.cpp.obj: C:/Users/USER/Desktop/program/proj
   c:/users/user/desktop/program/projects/coragraphics/include/glm/matrix.hpp \
   c:/users/user/desktop/program/projects/coragraphics/include/glm/simd/platform.h \
   c:/users/user/desktop/program/projects/coragraphics/include/glm/vector_relational.hpp \
+  c:/users/user/desktop/program/projects/coragraphics/src/camera/camera.h \
   c:/users/user/desktop/program/projects/coragraphics/src/renderer/Shader.h \
   c:/users/user/desktop/program/projects/coragraphics/src/renderer/Texture.h \
   c:/users/user/desktop/program/projects/coragraphics/src/renderer/Transform.h \
   c:/users/user/desktop/program/projects/coragraphics/src/renderer/mesh.h \
+  c:/users/user/desktop/program/projects/coragraphics/src/renderer/prefabs.h \
   c:/users/user/desktop/program/projects/coragraphics/src/renderer/shader.h
 
 
@@ -379,6 +381,8 @@ C:/Users/USER/Desktop/program/projects/CoraGraphics/include/glm/glm.hpp:
 c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/sstream:
 
 C:/Users/USER/Desktop/program/projects/CoraGraphics/include/glm/detail/_fixes.hpp:
+
+c:/users/user/desktop/program/projects/coragraphics/src/renderer/prefabs.h:
 
 C:/Users/USER/Desktop/program/projects/CoraGraphics/include/glm/detail/func_trigonometric.inl:
 
@@ -527,6 +531,8 @@ c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/basic_ios.h:
 c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/basic_string.h:
 
 c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/basic_string.tcc:
+
+c:/users/user/desktop/program/projects/coragraphics/src/camera/camera.h:
 
 c:/users/user/desktop/program/projects/coragraphics/include/glm/ext/quaternion_common.hpp:
 
