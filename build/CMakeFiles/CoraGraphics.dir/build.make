@@ -43,10 +43,10 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\CMake\bin\cmake.exe"
+CMAKE_COMMAND = C:\msys64\mingw64\bin\cmake.exe
 
 # The command to remove a file.
-RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
+RM = C:\msys64\mingw64\bin\cmake.exe -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -96,6 +96,7 @@ CoraGraphics_EXTERNAL_OBJECTS =
 CoraGraphics.exe: CMakeFiles/CoraGraphics.dir/src/main.cpp.obj
 CoraGraphics.exe: CMakeFiles/CoraGraphics.dir/build.make
 CoraGraphics.exe: libimgui.a
+CoraGraphics.exe: C:/Users/USER/Desktop/program/projects/CoraGraphics/external/assimp/build/lib/libassimp.dll.a
 CoraGraphics.exe: _deps/glfw-build/src/libglfw3.a
 CoraGraphics.exe: libglad.a
 CoraGraphics.exe: CMakeFiles/CoraGraphics.dir/linkLibs.rsp

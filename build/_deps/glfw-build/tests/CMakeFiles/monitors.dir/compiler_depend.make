@@ -51,44 +51,44 @@ _deps/glfw-build/tests/CMakeFiles/monitors.dir/monitors.c.obj: _deps/glfw-src/te
   c:/mingw/lib/gcc/mingw32/6.3.0/include/stdint.h
 
 
-c:/mingw/include/string.h:
-
-c:/mingw/include/_mingw.h:
-
-_deps/glfw-src/deps/getopt.c:
-
-c:/mingw/include/w32api.h:
-
-c:/mingw/include/strings.h:
-
-c:/mingw/include/stdlib.h:
-
-_deps/glfw-src/deps/getopt.h:
+_deps/glfw-src/include/GLFW/glfw3.h:
 
 _deps/glfw-src/tests/monitors.c:
 
-c:/mingw/include/sdkddkver.h:
+c:/mingw/lib/gcc/mingw32/6.3.0/include/stdarg.h:
 
-c:/mingw/include/msvcrtver.h:
-
-c:/mingw/include/wchar.h:
-
-c:/mingw/lib/gcc/mingw32/6.3.0/include/stddef.h:
-
-_deps/glfw-src/deps/glad_gl.c:
-
-c:/mingw/include/sys/types.h:
-
-_deps/glfw-src/deps/glad/gl.h:
-
-_deps/glfw-src/deps/glad/khrplatform.h:
-
-c:/mingw/include/stdint.h:
+c:/mingw/include/stdlib.h:
 
 c:/mingw/include/stdio.h:
 
-_deps/glfw-src/include/GLFW/glfw3.h:
+c:/mingw/include/stdint.h:
 
-c:/mingw/lib/gcc/mingw32/6.3.0/include/stdarg.h:
+_deps/glfw-src/deps/getopt.h:
+
+c:/mingw/include/sdkddkver.h:
+
+c:/mingw/include/sys/types.h:
+
+_deps/glfw-src/deps/glad_gl.c:
+
+c:/mingw/include/_mingw.h:
+
+c:/mingw/include/msvcrtver.h:
+
+c:/mingw/include/string.h:
+
+c:/mingw/include/strings.h:
+
+c:/mingw/lib/gcc/mingw32/6.3.0/include/stddef.h:
+
+c:/mingw/include/w32api.h:
+
+_deps/glfw-src/deps/glad/gl.h:
 
 c:/mingw/lib/gcc/mingw32/6.3.0/include/stdint.h:
+
+_deps/glfw-src/deps/getopt.c:
+
+c:/mingw/include/wchar.h:
+
+_deps/glfw-src/deps/glad/khrplatform.h:

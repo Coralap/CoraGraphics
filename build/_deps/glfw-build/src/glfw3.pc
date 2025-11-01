@@ -1,7 +1,7 @@
-prefix=C:/Program Files (x86)/MyEngine
+prefix=C:/Program Files (x86)/CoraGraphics
 exec_prefix=${prefix}
-includedir=C:/Program Files (x86)/MyEngine/include
-libdir=C:/Program Files (x86)/MyEngine/lib
+includedir=C:/Program Files (x86)/CoraGraphics/include
+libdir=C:/Program Files (x86)/CoraGraphics/lib
 
 Name: GLFW
 Description: A multi-platform library for OpenGL, window and input

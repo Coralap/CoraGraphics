@@ -76,7 +76,9 @@ namespace Prefabs {
             2,3,4,
             3,0,4
         };
-
+        if(texturePath ==""){
+           return new Mesh(vertices, indices);
+        }
         return new Mesh(vertices, indices, texturePath);
     }
 

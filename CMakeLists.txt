@@ -37,7 +37,7 @@ set(IMGUI_SOURCES
 
 add_library(imgui STATIC ${IMGUI_SOURCES})
 target_include_directories(imgui PUBLIC ${IMGUI_DIR} ${IMGUI_DIR}/backends)
-target_link_libraries(imgui PUBLIC glfw glad)  # ensures headers and libs are visible
+target_link_libraries(imgui PUBLIC glfw glad)
 
 # -----------------------------
 # Find OpenGL
@@ -51,10 +51,30 @@ else()
 endif()
 
 # -----------------------------
+# Add Assimp
+# -----------------------------
+set(ASSIMP_DIR ${CMAKE_CURRENT_SOURCE_DIR}/external/assimp)
+set(ASSIMP_BUILD_DIR ${ASSIMP_DIR}/build)
+
+add_library(assimp SHARED IMPORTED)
+set_target_properties(assimp PROPERTIES
+    IMPORTED_LOCATION ${ASSIMP_BUILD_DIR}/bin/libassimp.dll
+    IMPORTED_IMPLIB ${ASSIMP_BUILD_DIR}/lib/libassimp.dll.a
+    INTERFACE_INCLUDE_DIRECTORIES ${ASSIMP_DIR}/include
+)
+
+# -----------------------------
 # Add main executable
 # -----------------------------
 add_executable(CoraGraphics src/main.cpp)
 target_include_directories(CoraGraphics PRIVATE include)
 
-# Link all dependencies
-target_link_libraries(CoraGraphics PRIVATE imgui ${OPENGL_TARGET})
+# -----------------------------
+# Link dependencies
+# -----------------------------
+target_link_libraries(CoraGraphics
+    PRIVATE
+        imgui
+        ${OPENGL_TARGET}
+        assimp
+)

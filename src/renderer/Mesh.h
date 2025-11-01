@@ -7,7 +7,14 @@ public:
     std::vector<float> vertices; 
     std::vector<unsigned int> indices;  
     std::string texturePath;
-    Texture *texture;
+    Texture* texture = nullptr;
+
+    ~Mesh() {
+        if (texture) delete texture;
+        glDeleteVertexArrays(1, &VAO);
+        glDeleteBuffers(1, &VBO);
+        glDeleteBuffers(1, &EBO);
+    }
 
 
     Mesh(const std::vector<float>& verts, const std::vector<unsigned int>& inds,std::string texturePath)
@@ -30,6 +37,8 @@ public:
         glBindVertexArray(VAO);
         glDrawElements(GL_TRIANGLES, indices.size(), GL_UNSIGNED_INT, 0);
         glBindVertexArray(0);
+        glBindTexture(GL_TEXTURE_2D, 0);
+
     }
 
     void setData(const std::vector<float>& verts, const std::vector<unsigned int>& inds) {

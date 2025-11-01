@@ -108,92 +108,92 @@ _deps/glfw-build/examples/CMakeFiles/particles.dir/particles.c.obj: _deps/glfw-s
   c:/mingw/lib/gcc/mingw32/6.3.0/include/stdint.h
 
 
+_deps/glfw-src/include/GLFW/glfw3.h:
+
+_deps/glfw-src/examples/particles.c:
+
+c:/mingw/include/winuser.h:
+
+c:/mingw/include/winnetwk.h:
+
 c:/mingw/include/winnls.h:
 
-c:/mingw/include/string.h:
-
-c:/mingw/include/_mingw.h:
-
-c:/mingw/include/winbase.h:
-
-_deps/glfw-src/deps/getopt.c:
+c:/mingw/include/winerror.h:
 
 c:/mingw/include/winreg.h:
 
-c:/mingw/include/poppack.h:
+c:/mingw/include/windef.h:
 
-c:/mingw/include/w32api.h:
+c:/mingw/include/wincon.h:
 
-c:/mingw/include/strings.h:
+_deps/glfw-src/deps/glad/khrplatform.h:
 
-c:/mingw/include/stdlib.h:
-
-_deps/glfw-src/deps/getopt.h:
-
-c:/mingw/include/sdkddkver.h:
-
-c:/mingw/include/winsvc.h:
-
-c:/mingw/include/wingdi.h:
-
-c:/mingw/include/msvcrtver.h:
+c:/mingw/include/wchar.h:
 
 c:/mingw/include/windows.h:
 
-c:/mingw/include/process.h:
+_deps/glfw-src/deps/getopt.c:
 
-c:/mingw/include/wchar.h:
+_deps/glfw-src/deps/linmath.h:
+
+c:/mingw/include/basetsd.h:
+
+c:/mingw/lib/gcc/mingw32/6.3.0/include/stdint.h:
+
+c:/mingw/include/winbase.h:
+
+c:/mingw/include/winver.h:
+
+c:/mingw/include/w32api.h:
+
+c:/mingw/include/string.h:
+
+c:/mingw/include/poppack.h:
+
+c:/mingw/include/winsvc.h:
+
+c:/mingw/include/msvcrtver.h:
+
+c:/mingw/include/_mingw.h:
 
 c:/mingw/lib/gcc/mingw32/6.3.0/include/stddef.h:
 
 _deps/glfw-src/deps/glad_gl.c:
 
-c:/mingw/include/sys/types.h:
+c:/mingw/include/wingdi.h:
 
 _deps/glfw-src/deps/glad/gl.h:
 
-_deps/glfw-src/deps/glad/khrplatform.h:
+c:/mingw/include/sys/types.h:
 
-c:/mingw/include/basetsd.h:
+c:/mingw/include/pshpack4.h:
+
+c:/mingw/include/sdkddkver.h:
+
+c:/mingw/include/strings.h:
+
+_deps/glfw-src/deps/getopt.h:
 
 c:/mingw/include/stdint.h:
 
+c:/mingw/include/winnt.h:
+
 c:/mingw/include/stdio.h:
 
-_deps/glfw-src/include/GLFW/glfw3.h:
+c:/mingw/include/math.h:
+
+c:/mingw/include/stdlib.h:
 
 c:/mingw/lib/gcc/mingw32/6.3.0/include/stdarg.h:
 
-_deps/glfw-src/examples/particles.c:
-
-c:/mingw/lib/gcc/mingw32/6.3.0/include/stdint.h:
-
 _deps/glfw-src/deps/tinycthread.c:
-
-c:/mingw/include/winnt.h:
 
 _deps/glfw-src/deps/tinycthread.h:
 
 c:/mingw/include/dbt.h:
 
-c:/mingw/include/pshpack4.h:
+c:/mingw/include/process.h:
 
 c:/mingw/include/sys/timeb.h:
 
 c:/mingw/include/time.h:
-
-c:/mingw/include/wincon.h:
-
-c:/mingw/include/windef.h:
-
-c:/mingw/include/winerror.h:
-
-c:/mingw/include/winnetwk.h:
-
-c:/mingw/include/winuser.h:
-
-c:/mingw/include/winver.h:
-
-_deps/glfw-src/deps/linmath.h:
-
-c:/mingw/include/math.h:
