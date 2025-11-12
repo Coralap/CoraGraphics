@@ -1,1 +1,1 @@
- libimguid.a -lopengl32 -lassimp "_deps/glfw-build/src/libglfw3d.a" libgladd.a -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+ libimguid.a -lopengl32 "_deps/glfw-build/src/libglfw3d.a" libgladd.a -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 

@@ -64,5 +64,4 @@ target_link_libraries(CoraGraphics
     PRIVATE
         imgui
         ${OPENGL_TARGET}
-        assimp
 )
