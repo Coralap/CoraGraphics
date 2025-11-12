@@ -76,30 +76,30 @@ _deps/glfw-build/tests/CMakeFiles/tearing.dir/tearing.c.obj: _deps/glfw-build/te
 _deps/glfw-build/tests/CMakeFiles/tearing.dir/tearing.c.obj: _deps/glfw-src/tests/tearing.c
 _deps/glfw-build/tests/CMakeFiles/tearing.dir/tearing.c.obj: _deps/glfw-build/tests/CMakeFiles/tearing.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\USER\Desktop\program\projects\CoraGraphics\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object _deps/glfw-build/tests/CMakeFiles/tearing.dir/tearing.c.obj"
-	cd /d C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-build\tests && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/glfw-build/tests/CMakeFiles/tearing.dir/tearing.c.obj -MF CMakeFiles\tearing.dir\tearing.c.obj.d -o CMakeFiles\tearing.dir\tearing.c.obj -c C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-src\tests\tearing.c
+	cd /d C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-build\tests && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/glfw-build/tests/CMakeFiles/tearing.dir/tearing.c.obj -MF CMakeFiles\tearing.dir\tearing.c.obj.d -o CMakeFiles\tearing.dir\tearing.c.obj -c C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-src\tests\tearing.c
 
 _deps/glfw-build/tests/CMakeFiles/tearing.dir/tearing.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/tearing.dir/tearing.c.i"
-	cd /d C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-build\tests && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-src\tests\tearing.c > CMakeFiles\tearing.dir\tearing.c.i
+	cd /d C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-build\tests && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-src\tests\tearing.c > CMakeFiles\tearing.dir\tearing.c.i
 
 _deps/glfw-build/tests/CMakeFiles/tearing.dir/tearing.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/tearing.dir/tearing.c.s"
-	cd /d C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-build\tests && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-src\tests\tearing.c -o CMakeFiles\tearing.dir\tearing.c.s
+	cd /d C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-build\tests && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-src\tests\tearing.c -o CMakeFiles\tearing.dir\tearing.c.s
 
 _deps/glfw-build/tests/CMakeFiles/tearing.dir/__/deps/glad_gl.c.obj: _deps/glfw-build/tests/CMakeFiles/tearing.dir/flags.make
 _deps/glfw-build/tests/CMakeFiles/tearing.dir/__/deps/glad_gl.c.obj: _deps/glfw-build/tests/CMakeFiles/tearing.dir/includes_C.rsp
 _deps/glfw-build/tests/CMakeFiles/tearing.dir/__/deps/glad_gl.c.obj: _deps/glfw-src/deps/glad_gl.c
 _deps/glfw-build/tests/CMakeFiles/tearing.dir/__/deps/glad_gl.c.obj: _deps/glfw-build/tests/CMakeFiles/tearing.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\USER\Desktop\program\projects\CoraGraphics\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object _deps/glfw-build/tests/CMakeFiles/tearing.dir/__/deps/glad_gl.c.obj"
-	cd /d C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-build\tests && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/glfw-build/tests/CMakeFiles/tearing.dir/__/deps/glad_gl.c.obj -MF CMakeFiles\tearing.dir\__\deps\glad_gl.c.obj.d -o CMakeFiles\tearing.dir\__\deps\glad_gl.c.obj -c C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-src\deps\glad_gl.c
+	cd /d C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-build\tests && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/glfw-build/tests/CMakeFiles/tearing.dir/__/deps/glad_gl.c.obj -MF CMakeFiles\tearing.dir\__\deps\glad_gl.c.obj.d -o CMakeFiles\tearing.dir\__\deps\glad_gl.c.obj -c C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-src\deps\glad_gl.c
 
 _deps/glfw-build/tests/CMakeFiles/tearing.dir/__/deps/glad_gl.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/tearing.dir/__/deps/glad_gl.c.i"
-	cd /d C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-build\tests && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-src\deps\glad_gl.c > CMakeFiles\tearing.dir\__\deps\glad_gl.c.i
+	cd /d C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-build\tests && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-src\deps\glad_gl.c > CMakeFiles\tearing.dir\__\deps\glad_gl.c.i
 
 _deps/glfw-build/tests/CMakeFiles/tearing.dir/__/deps/glad_gl.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/tearing.dir/__/deps/glad_gl.c.s"
-	cd /d C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-build\tests && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-src\deps\glad_gl.c -o CMakeFiles\tearing.dir\__\deps\glad_gl.c.s
+	cd /d C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-build\tests && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-src\deps\glad_gl.c -o CMakeFiles\tearing.dir\__\deps\glad_gl.c.s
 
 # Object files for target tearing
 tearing_OBJECTS = \
@@ -112,7 +112,7 @@ tearing_EXTERNAL_OBJECTS =
 _deps/glfw-build/tests/tearing.exe: _deps/glfw-build/tests/CMakeFiles/tearing.dir/tearing.c.obj
 _deps/glfw-build/tests/tearing.exe: _deps/glfw-build/tests/CMakeFiles/tearing.dir/__/deps/glad_gl.c.obj
 _deps/glfw-build/tests/tearing.exe: _deps/glfw-build/tests/CMakeFiles/tearing.dir/build.make
-_deps/glfw-build/tests/tearing.exe: _deps/glfw-build/src/libglfw3.a
+_deps/glfw-build/tests/tearing.exe: _deps/glfw-build/src/libglfw3d.a
 _deps/glfw-build/tests/tearing.exe: _deps/glfw-build/tests/CMakeFiles/tearing.dir/linkLibs.rsp
 _deps/glfw-build/tests/tearing.exe: _deps/glfw-build/tests/CMakeFiles/tearing.dir/objects1.rsp
 _deps/glfw-build/tests/tearing.exe: _deps/glfw-build/tests/CMakeFiles/tearing.dir/link.txt

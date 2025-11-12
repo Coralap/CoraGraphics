@@ -76,15 +76,15 @@ CMakeFiles/CoraGraphics.dir/src/main.cpp.obj: CMakeFiles/CoraGraphics.dir/includ
 CMakeFiles/CoraGraphics.dir/src/main.cpp.obj: C:/Users/USER/Desktop/program/projects/CoraGraphics/src/main.cpp
 CMakeFiles/CoraGraphics.dir/src/main.cpp.obj: CMakeFiles/CoraGraphics.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\USER\Desktop\program\projects\CoraGraphics\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/CoraGraphics.dir/src/main.cpp.obj"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CoraGraphics.dir/src/main.cpp.obj -MF CMakeFiles\CoraGraphics.dir\src\main.cpp.obj.d -o CMakeFiles\CoraGraphics.dir\src\main.cpp.obj -c C:\Users\USER\Desktop\program\projects\CoraGraphics\src\main.cpp
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CoraGraphics.dir/src/main.cpp.obj -MF CMakeFiles\CoraGraphics.dir\src\main.cpp.obj.d -o CMakeFiles\CoraGraphics.dir\src\main.cpp.obj -c C:\Users\USER\Desktop\program\projects\CoraGraphics\src\main.cpp
 
 CMakeFiles/CoraGraphics.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/CoraGraphics.dir/src/main.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\USER\Desktop\program\projects\CoraGraphics\src\main.cpp > CMakeFiles\CoraGraphics.dir\src\main.cpp.i
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\USER\Desktop\program\projects\CoraGraphics\src\main.cpp > CMakeFiles\CoraGraphics.dir\src\main.cpp.i
 
 CMakeFiles/CoraGraphics.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/CoraGraphics.dir/src/main.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\USER\Desktop\program\projects\CoraGraphics\src\main.cpp -o CMakeFiles\CoraGraphics.dir\src\main.cpp.s
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\USER\Desktop\program\projects\CoraGraphics\src\main.cpp -o CMakeFiles\CoraGraphics.dir\src\main.cpp.s
 
 # Object files for target CoraGraphics
 CoraGraphics_OBJECTS = \
@@ -95,10 +95,9 @@ CoraGraphics_EXTERNAL_OBJECTS =
 
 CoraGraphics.exe: CMakeFiles/CoraGraphics.dir/src/main.cpp.obj
 CoraGraphics.exe: CMakeFiles/CoraGraphics.dir/build.make
-CoraGraphics.exe: libimgui.a
-CoraGraphics.exe: C:/Users/USER/Desktop/program/projects/CoraGraphics/external/assimp/build/lib/libassimp.dll.a
-CoraGraphics.exe: _deps/glfw-build/src/libglfw3.a
-CoraGraphics.exe: libglad.a
+CoraGraphics.exe: libimguid.a
+CoraGraphics.exe: _deps/glfw-build/src/libglfw3d.a
+CoraGraphics.exe: libgladd.a
 CoraGraphics.exe: CMakeFiles/CoraGraphics.dir/linkLibs.rsp
 CoraGraphics.exe: CMakeFiles/CoraGraphics.dir/objects1.rsp
 CoraGraphics.exe: CMakeFiles/CoraGraphics.dir/link.txt

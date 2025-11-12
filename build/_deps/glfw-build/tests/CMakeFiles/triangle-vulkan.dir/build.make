@@ -76,30 +76,30 @@ _deps/glfw-build/tests/CMakeFiles/triangle-vulkan.dir/triangle-vulkan.c.obj: _de
 _deps/glfw-build/tests/CMakeFiles/triangle-vulkan.dir/triangle-vulkan.c.obj: _deps/glfw-src/tests/triangle-vulkan.c
 _deps/glfw-build/tests/CMakeFiles/triangle-vulkan.dir/triangle-vulkan.c.obj: _deps/glfw-build/tests/CMakeFiles/triangle-vulkan.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\USER\Desktop\program\projects\CoraGraphics\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object _deps/glfw-build/tests/CMakeFiles/triangle-vulkan.dir/triangle-vulkan.c.obj"
-	cd /d C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-build\tests && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/glfw-build/tests/CMakeFiles/triangle-vulkan.dir/triangle-vulkan.c.obj -MF CMakeFiles\triangle-vulkan.dir\triangle-vulkan.c.obj.d -o CMakeFiles\triangle-vulkan.dir\triangle-vulkan.c.obj -c C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-src\tests\triangle-vulkan.c
+	cd /d C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-build\tests && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/glfw-build/tests/CMakeFiles/triangle-vulkan.dir/triangle-vulkan.c.obj -MF CMakeFiles\triangle-vulkan.dir\triangle-vulkan.c.obj.d -o CMakeFiles\triangle-vulkan.dir\triangle-vulkan.c.obj -c C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-src\tests\triangle-vulkan.c
 
 _deps/glfw-build/tests/CMakeFiles/triangle-vulkan.dir/triangle-vulkan.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/triangle-vulkan.dir/triangle-vulkan.c.i"
-	cd /d C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-build\tests && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-src\tests\triangle-vulkan.c > CMakeFiles\triangle-vulkan.dir\triangle-vulkan.c.i
+	cd /d C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-build\tests && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-src\tests\triangle-vulkan.c > CMakeFiles\triangle-vulkan.dir\triangle-vulkan.c.i
 
 _deps/glfw-build/tests/CMakeFiles/triangle-vulkan.dir/triangle-vulkan.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/triangle-vulkan.dir/triangle-vulkan.c.s"
-	cd /d C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-build\tests && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-src\tests\triangle-vulkan.c -o CMakeFiles\triangle-vulkan.dir\triangle-vulkan.c.s
+	cd /d C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-build\tests && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-src\tests\triangle-vulkan.c -o CMakeFiles\triangle-vulkan.dir\triangle-vulkan.c.s
 
 _deps/glfw-build/tests/CMakeFiles/triangle-vulkan.dir/__/deps/glad_vulkan.c.obj: _deps/glfw-build/tests/CMakeFiles/triangle-vulkan.dir/flags.make
 _deps/glfw-build/tests/CMakeFiles/triangle-vulkan.dir/__/deps/glad_vulkan.c.obj: _deps/glfw-build/tests/CMakeFiles/triangle-vulkan.dir/includes_C.rsp
 _deps/glfw-build/tests/CMakeFiles/triangle-vulkan.dir/__/deps/glad_vulkan.c.obj: _deps/glfw-src/deps/glad_vulkan.c
 _deps/glfw-build/tests/CMakeFiles/triangle-vulkan.dir/__/deps/glad_vulkan.c.obj: _deps/glfw-build/tests/CMakeFiles/triangle-vulkan.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\USER\Desktop\program\projects\CoraGraphics\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object _deps/glfw-build/tests/CMakeFiles/triangle-vulkan.dir/__/deps/glad_vulkan.c.obj"
-	cd /d C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-build\tests && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/glfw-build/tests/CMakeFiles/triangle-vulkan.dir/__/deps/glad_vulkan.c.obj -MF CMakeFiles\triangle-vulkan.dir\__\deps\glad_vulkan.c.obj.d -o CMakeFiles\triangle-vulkan.dir\__\deps\glad_vulkan.c.obj -c C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-src\deps\glad_vulkan.c
+	cd /d C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-build\tests && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/glfw-build/tests/CMakeFiles/triangle-vulkan.dir/__/deps/glad_vulkan.c.obj -MF CMakeFiles\triangle-vulkan.dir\__\deps\glad_vulkan.c.obj.d -o CMakeFiles\triangle-vulkan.dir\__\deps\glad_vulkan.c.obj -c C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-src\deps\glad_vulkan.c
 
 _deps/glfw-build/tests/CMakeFiles/triangle-vulkan.dir/__/deps/glad_vulkan.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/triangle-vulkan.dir/__/deps/glad_vulkan.c.i"
-	cd /d C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-build\tests && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-src\deps\glad_vulkan.c > CMakeFiles\triangle-vulkan.dir\__\deps\glad_vulkan.c.i
+	cd /d C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-build\tests && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-src\deps\glad_vulkan.c > CMakeFiles\triangle-vulkan.dir\__\deps\glad_vulkan.c.i
 
 _deps/glfw-build/tests/CMakeFiles/triangle-vulkan.dir/__/deps/glad_vulkan.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/triangle-vulkan.dir/__/deps/glad_vulkan.c.s"
-	cd /d C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-build\tests && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-src\deps\glad_vulkan.c -o CMakeFiles\triangle-vulkan.dir\__\deps\glad_vulkan.c.s
+	cd /d C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-build\tests && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-src\deps\glad_vulkan.c -o CMakeFiles\triangle-vulkan.dir\__\deps\glad_vulkan.c.s
 
 # Object files for target triangle-vulkan
 triangle__vulkan_OBJECTS = \
@@ -112,7 +112,7 @@ triangle__vulkan_EXTERNAL_OBJECTS =
 _deps/glfw-build/tests/triangle-vulkan.exe: _deps/glfw-build/tests/CMakeFiles/triangle-vulkan.dir/triangle-vulkan.c.obj
 _deps/glfw-build/tests/triangle-vulkan.exe: _deps/glfw-build/tests/CMakeFiles/triangle-vulkan.dir/__/deps/glad_vulkan.c.obj
 _deps/glfw-build/tests/triangle-vulkan.exe: _deps/glfw-build/tests/CMakeFiles/triangle-vulkan.dir/build.make
-_deps/glfw-build/tests/triangle-vulkan.exe: _deps/glfw-build/src/libglfw3.a
+_deps/glfw-build/tests/triangle-vulkan.exe: _deps/glfw-build/src/libglfw3d.a
 _deps/glfw-build/tests/triangle-vulkan.exe: _deps/glfw-build/tests/CMakeFiles/triangle-vulkan.dir/linkLibs.rsp
 _deps/glfw-build/tests/triangle-vulkan.exe: _deps/glfw-build/tests/CMakeFiles/triangle-vulkan.dir/objects1.rsp
 _deps/glfw-build/tests/triangle-vulkan.exe: _deps/glfw-build/tests/CMakeFiles/triangle-vulkan.dir/link.txt

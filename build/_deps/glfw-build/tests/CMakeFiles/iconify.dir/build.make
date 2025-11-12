@@ -76,45 +76,45 @@ _deps/glfw-build/tests/CMakeFiles/iconify.dir/iconify.c.obj: _deps/glfw-build/te
 _deps/glfw-build/tests/CMakeFiles/iconify.dir/iconify.c.obj: _deps/glfw-src/tests/iconify.c
 _deps/glfw-build/tests/CMakeFiles/iconify.dir/iconify.c.obj: _deps/glfw-build/tests/CMakeFiles/iconify.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\USER\Desktop\program\projects\CoraGraphics\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object _deps/glfw-build/tests/CMakeFiles/iconify.dir/iconify.c.obj"
-	cd /d C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-build\tests && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/glfw-build/tests/CMakeFiles/iconify.dir/iconify.c.obj -MF CMakeFiles\iconify.dir\iconify.c.obj.d -o CMakeFiles\iconify.dir\iconify.c.obj -c C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-src\tests\iconify.c
+	cd /d C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-build\tests && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/glfw-build/tests/CMakeFiles/iconify.dir/iconify.c.obj -MF CMakeFiles\iconify.dir\iconify.c.obj.d -o CMakeFiles\iconify.dir\iconify.c.obj -c C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-src\tests\iconify.c
 
 _deps/glfw-build/tests/CMakeFiles/iconify.dir/iconify.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/iconify.dir/iconify.c.i"
-	cd /d C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-build\tests && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-src\tests\iconify.c > CMakeFiles\iconify.dir\iconify.c.i
+	cd /d C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-build\tests && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-src\tests\iconify.c > CMakeFiles\iconify.dir\iconify.c.i
 
 _deps/glfw-build/tests/CMakeFiles/iconify.dir/iconify.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/iconify.dir/iconify.c.s"
-	cd /d C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-build\tests && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-src\tests\iconify.c -o CMakeFiles\iconify.dir\iconify.c.s
+	cd /d C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-build\tests && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-src\tests\iconify.c -o CMakeFiles\iconify.dir\iconify.c.s
 
 _deps/glfw-build/tests/CMakeFiles/iconify.dir/__/deps/getopt.c.obj: _deps/glfw-build/tests/CMakeFiles/iconify.dir/flags.make
 _deps/glfw-build/tests/CMakeFiles/iconify.dir/__/deps/getopt.c.obj: _deps/glfw-build/tests/CMakeFiles/iconify.dir/includes_C.rsp
 _deps/glfw-build/tests/CMakeFiles/iconify.dir/__/deps/getopt.c.obj: _deps/glfw-src/deps/getopt.c
 _deps/glfw-build/tests/CMakeFiles/iconify.dir/__/deps/getopt.c.obj: _deps/glfw-build/tests/CMakeFiles/iconify.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\USER\Desktop\program\projects\CoraGraphics\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object _deps/glfw-build/tests/CMakeFiles/iconify.dir/__/deps/getopt.c.obj"
-	cd /d C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-build\tests && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/glfw-build/tests/CMakeFiles/iconify.dir/__/deps/getopt.c.obj -MF CMakeFiles\iconify.dir\__\deps\getopt.c.obj.d -o CMakeFiles\iconify.dir\__\deps\getopt.c.obj -c C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-src\deps\getopt.c
+	cd /d C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-build\tests && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/glfw-build/tests/CMakeFiles/iconify.dir/__/deps/getopt.c.obj -MF CMakeFiles\iconify.dir\__\deps\getopt.c.obj.d -o CMakeFiles\iconify.dir\__\deps\getopt.c.obj -c C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-src\deps\getopt.c
 
 _deps/glfw-build/tests/CMakeFiles/iconify.dir/__/deps/getopt.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/iconify.dir/__/deps/getopt.c.i"
-	cd /d C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-build\tests && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-src\deps\getopt.c > CMakeFiles\iconify.dir\__\deps\getopt.c.i
+	cd /d C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-build\tests && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-src\deps\getopt.c > CMakeFiles\iconify.dir\__\deps\getopt.c.i
 
 _deps/glfw-build/tests/CMakeFiles/iconify.dir/__/deps/getopt.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/iconify.dir/__/deps/getopt.c.s"
-	cd /d C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-build\tests && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-src\deps\getopt.c -o CMakeFiles\iconify.dir\__\deps\getopt.c.s
+	cd /d C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-build\tests && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-src\deps\getopt.c -o CMakeFiles\iconify.dir\__\deps\getopt.c.s
 
 _deps/glfw-build/tests/CMakeFiles/iconify.dir/__/deps/glad_gl.c.obj: _deps/glfw-build/tests/CMakeFiles/iconify.dir/flags.make
 _deps/glfw-build/tests/CMakeFiles/iconify.dir/__/deps/glad_gl.c.obj: _deps/glfw-build/tests/CMakeFiles/iconify.dir/includes_C.rsp
 _deps/glfw-build/tests/CMakeFiles/iconify.dir/__/deps/glad_gl.c.obj: _deps/glfw-src/deps/glad_gl.c
 _deps/glfw-build/tests/CMakeFiles/iconify.dir/__/deps/glad_gl.c.obj: _deps/glfw-build/tests/CMakeFiles/iconify.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\USER\Desktop\program\projects\CoraGraphics\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object _deps/glfw-build/tests/CMakeFiles/iconify.dir/__/deps/glad_gl.c.obj"
-	cd /d C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-build\tests && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/glfw-build/tests/CMakeFiles/iconify.dir/__/deps/glad_gl.c.obj -MF CMakeFiles\iconify.dir\__\deps\glad_gl.c.obj.d -o CMakeFiles\iconify.dir\__\deps\glad_gl.c.obj -c C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-src\deps\glad_gl.c
+	cd /d C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-build\tests && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/glfw-build/tests/CMakeFiles/iconify.dir/__/deps/glad_gl.c.obj -MF CMakeFiles\iconify.dir\__\deps\glad_gl.c.obj.d -o CMakeFiles\iconify.dir\__\deps\glad_gl.c.obj -c C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-src\deps\glad_gl.c
 
 _deps/glfw-build/tests/CMakeFiles/iconify.dir/__/deps/glad_gl.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/iconify.dir/__/deps/glad_gl.c.i"
-	cd /d C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-build\tests && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-src\deps\glad_gl.c > CMakeFiles\iconify.dir\__\deps\glad_gl.c.i
+	cd /d C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-build\tests && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-src\deps\glad_gl.c > CMakeFiles\iconify.dir\__\deps\glad_gl.c.i
 
 _deps/glfw-build/tests/CMakeFiles/iconify.dir/__/deps/glad_gl.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/iconify.dir/__/deps/glad_gl.c.s"
-	cd /d C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-build\tests && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-src\deps\glad_gl.c -o CMakeFiles\iconify.dir\__\deps\glad_gl.c.s
+	cd /d C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-build\tests && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-src\deps\glad_gl.c -o CMakeFiles\iconify.dir\__\deps\glad_gl.c.s
 
 # Object files for target iconify
 iconify_OBJECTS = \
@@ -129,7 +129,7 @@ _deps/glfw-build/tests/iconify.exe: _deps/glfw-build/tests/CMakeFiles/iconify.di
 _deps/glfw-build/tests/iconify.exe: _deps/glfw-build/tests/CMakeFiles/iconify.dir/__/deps/getopt.c.obj
 _deps/glfw-build/tests/iconify.exe: _deps/glfw-build/tests/CMakeFiles/iconify.dir/__/deps/glad_gl.c.obj
 _deps/glfw-build/tests/iconify.exe: _deps/glfw-build/tests/CMakeFiles/iconify.dir/build.make
-_deps/glfw-build/tests/iconify.exe: _deps/glfw-build/src/libglfw3.a
+_deps/glfw-build/tests/iconify.exe: _deps/glfw-build/src/libglfw3d.a
 _deps/glfw-build/tests/iconify.exe: _deps/glfw-build/tests/CMakeFiles/iconify.dir/linkLibs.rsp
 _deps/glfw-build/tests/iconify.exe: _deps/glfw-build/tests/CMakeFiles/iconify.dir/objects1.rsp
 _deps/glfw-build/tests/iconify.exe: _deps/glfw-build/tests/CMakeFiles/iconify.dir/link.txt

@@ -76,45 +76,45 @@ _deps/glfw-build/tests/CMakeFiles/clipboard.dir/clipboard.c.obj: _deps/glfw-buil
 _deps/glfw-build/tests/CMakeFiles/clipboard.dir/clipboard.c.obj: _deps/glfw-src/tests/clipboard.c
 _deps/glfw-build/tests/CMakeFiles/clipboard.dir/clipboard.c.obj: _deps/glfw-build/tests/CMakeFiles/clipboard.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\USER\Desktop\program\projects\CoraGraphics\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object _deps/glfw-build/tests/CMakeFiles/clipboard.dir/clipboard.c.obj"
-	cd /d C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-build\tests && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/glfw-build/tests/CMakeFiles/clipboard.dir/clipboard.c.obj -MF CMakeFiles\clipboard.dir\clipboard.c.obj.d -o CMakeFiles\clipboard.dir\clipboard.c.obj -c C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-src\tests\clipboard.c
+	cd /d C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-build\tests && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/glfw-build/tests/CMakeFiles/clipboard.dir/clipboard.c.obj -MF CMakeFiles\clipboard.dir\clipboard.c.obj.d -o CMakeFiles\clipboard.dir\clipboard.c.obj -c C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-src\tests\clipboard.c
 
 _deps/glfw-build/tests/CMakeFiles/clipboard.dir/clipboard.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/clipboard.dir/clipboard.c.i"
-	cd /d C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-build\tests && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-src\tests\clipboard.c > CMakeFiles\clipboard.dir\clipboard.c.i
+	cd /d C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-build\tests && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-src\tests\clipboard.c > CMakeFiles\clipboard.dir\clipboard.c.i
 
 _deps/glfw-build/tests/CMakeFiles/clipboard.dir/clipboard.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/clipboard.dir/clipboard.c.s"
-	cd /d C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-build\tests && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-src\tests\clipboard.c -o CMakeFiles\clipboard.dir\clipboard.c.s
+	cd /d C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-build\tests && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-src\tests\clipboard.c -o CMakeFiles\clipboard.dir\clipboard.c.s
 
 _deps/glfw-build/tests/CMakeFiles/clipboard.dir/__/deps/getopt.c.obj: _deps/glfw-build/tests/CMakeFiles/clipboard.dir/flags.make
 _deps/glfw-build/tests/CMakeFiles/clipboard.dir/__/deps/getopt.c.obj: _deps/glfw-build/tests/CMakeFiles/clipboard.dir/includes_C.rsp
 _deps/glfw-build/tests/CMakeFiles/clipboard.dir/__/deps/getopt.c.obj: _deps/glfw-src/deps/getopt.c
 _deps/glfw-build/tests/CMakeFiles/clipboard.dir/__/deps/getopt.c.obj: _deps/glfw-build/tests/CMakeFiles/clipboard.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\USER\Desktop\program\projects\CoraGraphics\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object _deps/glfw-build/tests/CMakeFiles/clipboard.dir/__/deps/getopt.c.obj"
-	cd /d C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-build\tests && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/glfw-build/tests/CMakeFiles/clipboard.dir/__/deps/getopt.c.obj -MF CMakeFiles\clipboard.dir\__\deps\getopt.c.obj.d -o CMakeFiles\clipboard.dir\__\deps\getopt.c.obj -c C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-src\deps\getopt.c
+	cd /d C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-build\tests && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/glfw-build/tests/CMakeFiles/clipboard.dir/__/deps/getopt.c.obj -MF CMakeFiles\clipboard.dir\__\deps\getopt.c.obj.d -o CMakeFiles\clipboard.dir\__\deps\getopt.c.obj -c C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-src\deps\getopt.c
 
 _deps/glfw-build/tests/CMakeFiles/clipboard.dir/__/deps/getopt.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/clipboard.dir/__/deps/getopt.c.i"
-	cd /d C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-build\tests && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-src\deps\getopt.c > CMakeFiles\clipboard.dir\__\deps\getopt.c.i
+	cd /d C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-build\tests && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-src\deps\getopt.c > CMakeFiles\clipboard.dir\__\deps\getopt.c.i
 
 _deps/glfw-build/tests/CMakeFiles/clipboard.dir/__/deps/getopt.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/clipboard.dir/__/deps/getopt.c.s"
-	cd /d C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-build\tests && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-src\deps\getopt.c -o CMakeFiles\clipboard.dir\__\deps\getopt.c.s
+	cd /d C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-build\tests && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-src\deps\getopt.c -o CMakeFiles\clipboard.dir\__\deps\getopt.c.s
 
 _deps/glfw-build/tests/CMakeFiles/clipboard.dir/__/deps/glad_gl.c.obj: _deps/glfw-build/tests/CMakeFiles/clipboard.dir/flags.make
 _deps/glfw-build/tests/CMakeFiles/clipboard.dir/__/deps/glad_gl.c.obj: _deps/glfw-build/tests/CMakeFiles/clipboard.dir/includes_C.rsp
 _deps/glfw-build/tests/CMakeFiles/clipboard.dir/__/deps/glad_gl.c.obj: _deps/glfw-src/deps/glad_gl.c
 _deps/glfw-build/tests/CMakeFiles/clipboard.dir/__/deps/glad_gl.c.obj: _deps/glfw-build/tests/CMakeFiles/clipboard.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\USER\Desktop\program\projects\CoraGraphics\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object _deps/glfw-build/tests/CMakeFiles/clipboard.dir/__/deps/glad_gl.c.obj"
-	cd /d C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-build\tests && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/glfw-build/tests/CMakeFiles/clipboard.dir/__/deps/glad_gl.c.obj -MF CMakeFiles\clipboard.dir\__\deps\glad_gl.c.obj.d -o CMakeFiles\clipboard.dir\__\deps\glad_gl.c.obj -c C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-src\deps\glad_gl.c
+	cd /d C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-build\tests && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/glfw-build/tests/CMakeFiles/clipboard.dir/__/deps/glad_gl.c.obj -MF CMakeFiles\clipboard.dir\__\deps\glad_gl.c.obj.d -o CMakeFiles\clipboard.dir\__\deps\glad_gl.c.obj -c C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-src\deps\glad_gl.c
 
 _deps/glfw-build/tests/CMakeFiles/clipboard.dir/__/deps/glad_gl.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/clipboard.dir/__/deps/glad_gl.c.i"
-	cd /d C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-build\tests && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-src\deps\glad_gl.c > CMakeFiles\clipboard.dir\__\deps\glad_gl.c.i
+	cd /d C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-build\tests && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-src\deps\glad_gl.c > CMakeFiles\clipboard.dir\__\deps\glad_gl.c.i
 
 _deps/glfw-build/tests/CMakeFiles/clipboard.dir/__/deps/glad_gl.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/clipboard.dir/__/deps/glad_gl.c.s"
-	cd /d C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-build\tests && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-src\deps\glad_gl.c -o CMakeFiles\clipboard.dir\__\deps\glad_gl.c.s
+	cd /d C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-build\tests && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-src\deps\glad_gl.c -o CMakeFiles\clipboard.dir\__\deps\glad_gl.c.s
 
 # Object files for target clipboard
 clipboard_OBJECTS = \
@@ -129,7 +129,7 @@ _deps/glfw-build/tests/clipboard.exe: _deps/glfw-build/tests/CMakeFiles/clipboar
 _deps/glfw-build/tests/clipboard.exe: _deps/glfw-build/tests/CMakeFiles/clipboard.dir/__/deps/getopt.c.obj
 _deps/glfw-build/tests/clipboard.exe: _deps/glfw-build/tests/CMakeFiles/clipboard.dir/__/deps/glad_gl.c.obj
 _deps/glfw-build/tests/clipboard.exe: _deps/glfw-build/tests/CMakeFiles/clipboard.dir/build.make
-_deps/glfw-build/tests/clipboard.exe: _deps/glfw-build/src/libglfw3.a
+_deps/glfw-build/tests/clipboard.exe: _deps/glfw-build/src/libglfw3d.a
 _deps/glfw-build/tests/clipboard.exe: _deps/glfw-build/tests/CMakeFiles/clipboard.dir/linkLibs.rsp
 _deps/glfw-build/tests/clipboard.exe: _deps/glfw-build/tests/CMakeFiles/clipboard.dir/objects1.rsp
 _deps/glfw-build/tests/clipboard.exe: _deps/glfw-build/tests/CMakeFiles/clipboard.dir/link.txt

@@ -76,35 +76,35 @@ _deps/glfw-build/examples/CMakeFiles/boing.dir/boing.c.obj: _deps/glfw-build/exa
 _deps/glfw-build/examples/CMakeFiles/boing.dir/boing.c.obj: _deps/glfw-src/examples/boing.c
 _deps/glfw-build/examples/CMakeFiles/boing.dir/boing.c.obj: _deps/glfw-build/examples/CMakeFiles/boing.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\USER\Desktop\program\projects\CoraGraphics\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object _deps/glfw-build/examples/CMakeFiles/boing.dir/boing.c.obj"
-	cd /d C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-build\examples && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/glfw-build/examples/CMakeFiles/boing.dir/boing.c.obj -MF CMakeFiles\boing.dir\boing.c.obj.d -o CMakeFiles\boing.dir\boing.c.obj -c C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-src\examples\boing.c
+	cd /d C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-build\examples && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/glfw-build/examples/CMakeFiles/boing.dir/boing.c.obj -MF CMakeFiles\boing.dir\boing.c.obj.d -o CMakeFiles\boing.dir\boing.c.obj -c C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-src\examples\boing.c
 
 _deps/glfw-build/examples/CMakeFiles/boing.dir/boing.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/boing.dir/boing.c.i"
-	cd /d C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-build\examples && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-src\examples\boing.c > CMakeFiles\boing.dir\boing.c.i
+	cd /d C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-build\examples && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-src\examples\boing.c > CMakeFiles\boing.dir\boing.c.i
 
 _deps/glfw-build/examples/CMakeFiles/boing.dir/boing.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/boing.dir/boing.c.s"
-	cd /d C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-build\examples && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-src\examples\boing.c -o CMakeFiles\boing.dir\boing.c.s
+	cd /d C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-build\examples && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-src\examples\boing.c -o CMakeFiles\boing.dir\boing.c.s
 
 _deps/glfw-build/examples/CMakeFiles/boing.dir/glfw.rc.obj: _deps/glfw-build/examples/CMakeFiles/boing.dir/flags.make
 _deps/glfw-build/examples/CMakeFiles/boing.dir/glfw.rc.obj: _deps/glfw-src/examples/glfw.rc
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\USER\Desktop\program\projects\CoraGraphics\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building RC object _deps/glfw-build/examples/CMakeFiles/boing.dir/glfw.rc.obj"
-	cd /d C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-build\examples && C:\MinGW\bin\windres.exe -O coff $(RC_DEFINES) $(RC_INCLUDES) $(RC_FLAGS) C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-src\examples\glfw.rc CMakeFiles\boing.dir\glfw.rc.obj
+	cd /d C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-build\examples && C:\msys64\mingw64\bin\windres.exe -O coff $(RC_DEFINES) $(RC_INCLUDES) $(RC_FLAGS) C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-src\examples\glfw.rc CMakeFiles\boing.dir\glfw.rc.obj
 
 _deps/glfw-build/examples/CMakeFiles/boing.dir/__/deps/glad_gl.c.obj: _deps/glfw-build/examples/CMakeFiles/boing.dir/flags.make
 _deps/glfw-build/examples/CMakeFiles/boing.dir/__/deps/glad_gl.c.obj: _deps/glfw-build/examples/CMakeFiles/boing.dir/includes_C.rsp
 _deps/glfw-build/examples/CMakeFiles/boing.dir/__/deps/glad_gl.c.obj: _deps/glfw-src/deps/glad_gl.c
 _deps/glfw-build/examples/CMakeFiles/boing.dir/__/deps/glad_gl.c.obj: _deps/glfw-build/examples/CMakeFiles/boing.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\USER\Desktop\program\projects\CoraGraphics\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object _deps/glfw-build/examples/CMakeFiles/boing.dir/__/deps/glad_gl.c.obj"
-	cd /d C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-build\examples && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/glfw-build/examples/CMakeFiles/boing.dir/__/deps/glad_gl.c.obj -MF CMakeFiles\boing.dir\__\deps\glad_gl.c.obj.d -o CMakeFiles\boing.dir\__\deps\glad_gl.c.obj -c C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-src\deps\glad_gl.c
+	cd /d C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-build\examples && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/glfw-build/examples/CMakeFiles/boing.dir/__/deps/glad_gl.c.obj -MF CMakeFiles\boing.dir\__\deps\glad_gl.c.obj.d -o CMakeFiles\boing.dir\__\deps\glad_gl.c.obj -c C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-src\deps\glad_gl.c
 
 _deps/glfw-build/examples/CMakeFiles/boing.dir/__/deps/glad_gl.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/boing.dir/__/deps/glad_gl.c.i"
-	cd /d C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-build\examples && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-src\deps\glad_gl.c > CMakeFiles\boing.dir\__\deps\glad_gl.c.i
+	cd /d C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-build\examples && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-src\deps\glad_gl.c > CMakeFiles\boing.dir\__\deps\glad_gl.c.i
 
 _deps/glfw-build/examples/CMakeFiles/boing.dir/__/deps/glad_gl.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/boing.dir/__/deps/glad_gl.c.s"
-	cd /d C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-build\examples && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-src\deps\glad_gl.c -o CMakeFiles\boing.dir\__\deps\glad_gl.c.s
+	cd /d C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-build\examples && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-src\deps\glad_gl.c -o CMakeFiles\boing.dir\__\deps\glad_gl.c.s
 
 # Object files for target boing
 boing_OBJECTS = \
@@ -119,7 +119,7 @@ _deps/glfw-build/examples/boing.exe: _deps/glfw-build/examples/CMakeFiles/boing.
 _deps/glfw-build/examples/boing.exe: _deps/glfw-build/examples/CMakeFiles/boing.dir/glfw.rc.obj
 _deps/glfw-build/examples/boing.exe: _deps/glfw-build/examples/CMakeFiles/boing.dir/__/deps/glad_gl.c.obj
 _deps/glfw-build/examples/boing.exe: _deps/glfw-build/examples/CMakeFiles/boing.dir/build.make
-_deps/glfw-build/examples/boing.exe: _deps/glfw-build/src/libglfw3.a
+_deps/glfw-build/examples/boing.exe: _deps/glfw-build/src/libglfw3d.a
 _deps/glfw-build/examples/boing.exe: _deps/glfw-build/examples/CMakeFiles/boing.dir/linkLibs.rsp
 _deps/glfw-build/examples/boing.exe: _deps/glfw-build/examples/CMakeFiles/boing.dir/objects1.rsp
 _deps/glfw-build/examples/boing.exe: _deps/glfw-build/examples/CMakeFiles/boing.dir/link.txt

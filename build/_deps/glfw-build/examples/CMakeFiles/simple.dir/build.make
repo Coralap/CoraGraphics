@@ -76,35 +76,35 @@ _deps/glfw-build/examples/CMakeFiles/simple.dir/simple.c.obj: _deps/glfw-build/e
 _deps/glfw-build/examples/CMakeFiles/simple.dir/simple.c.obj: _deps/glfw-src/examples/simple.c
 _deps/glfw-build/examples/CMakeFiles/simple.dir/simple.c.obj: _deps/glfw-build/examples/CMakeFiles/simple.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\USER\Desktop\program\projects\CoraGraphics\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object _deps/glfw-build/examples/CMakeFiles/simple.dir/simple.c.obj"
-	cd /d C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-build\examples && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/glfw-build/examples/CMakeFiles/simple.dir/simple.c.obj -MF CMakeFiles\simple.dir\simple.c.obj.d -o CMakeFiles\simple.dir\simple.c.obj -c C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-src\examples\simple.c
+	cd /d C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-build\examples && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/glfw-build/examples/CMakeFiles/simple.dir/simple.c.obj -MF CMakeFiles\simple.dir\simple.c.obj.d -o CMakeFiles\simple.dir\simple.c.obj -c C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-src\examples\simple.c
 
 _deps/glfw-build/examples/CMakeFiles/simple.dir/simple.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/simple.dir/simple.c.i"
-	cd /d C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-build\examples && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-src\examples\simple.c > CMakeFiles\simple.dir\simple.c.i
+	cd /d C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-build\examples && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-src\examples\simple.c > CMakeFiles\simple.dir\simple.c.i
 
 _deps/glfw-build/examples/CMakeFiles/simple.dir/simple.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/simple.dir/simple.c.s"
-	cd /d C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-build\examples && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-src\examples\simple.c -o CMakeFiles\simple.dir\simple.c.s
+	cd /d C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-build\examples && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-src\examples\simple.c -o CMakeFiles\simple.dir\simple.c.s
 
 _deps/glfw-build/examples/CMakeFiles/simple.dir/glfw.rc.obj: _deps/glfw-build/examples/CMakeFiles/simple.dir/flags.make
 _deps/glfw-build/examples/CMakeFiles/simple.dir/glfw.rc.obj: _deps/glfw-src/examples/glfw.rc
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\USER\Desktop\program\projects\CoraGraphics\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building RC object _deps/glfw-build/examples/CMakeFiles/simple.dir/glfw.rc.obj"
-	cd /d C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-build\examples && C:\MinGW\bin\windres.exe -O coff $(RC_DEFINES) $(RC_INCLUDES) $(RC_FLAGS) C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-src\examples\glfw.rc CMakeFiles\simple.dir\glfw.rc.obj
+	cd /d C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-build\examples && C:\msys64\mingw64\bin\windres.exe -O coff $(RC_DEFINES) $(RC_INCLUDES) $(RC_FLAGS) C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-src\examples\glfw.rc CMakeFiles\simple.dir\glfw.rc.obj
 
 _deps/glfw-build/examples/CMakeFiles/simple.dir/__/deps/glad_gl.c.obj: _deps/glfw-build/examples/CMakeFiles/simple.dir/flags.make
 _deps/glfw-build/examples/CMakeFiles/simple.dir/__/deps/glad_gl.c.obj: _deps/glfw-build/examples/CMakeFiles/simple.dir/includes_C.rsp
 _deps/glfw-build/examples/CMakeFiles/simple.dir/__/deps/glad_gl.c.obj: _deps/glfw-src/deps/glad_gl.c
 _deps/glfw-build/examples/CMakeFiles/simple.dir/__/deps/glad_gl.c.obj: _deps/glfw-build/examples/CMakeFiles/simple.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\USER\Desktop\program\projects\CoraGraphics\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object _deps/glfw-build/examples/CMakeFiles/simple.dir/__/deps/glad_gl.c.obj"
-	cd /d C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-build\examples && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/glfw-build/examples/CMakeFiles/simple.dir/__/deps/glad_gl.c.obj -MF CMakeFiles\simple.dir\__\deps\glad_gl.c.obj.d -o CMakeFiles\simple.dir\__\deps\glad_gl.c.obj -c C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-src\deps\glad_gl.c
+	cd /d C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-build\examples && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/glfw-build/examples/CMakeFiles/simple.dir/__/deps/glad_gl.c.obj -MF CMakeFiles\simple.dir\__\deps\glad_gl.c.obj.d -o CMakeFiles\simple.dir\__\deps\glad_gl.c.obj -c C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-src\deps\glad_gl.c
 
 _deps/glfw-build/examples/CMakeFiles/simple.dir/__/deps/glad_gl.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/simple.dir/__/deps/glad_gl.c.i"
-	cd /d C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-build\examples && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-src\deps\glad_gl.c > CMakeFiles\simple.dir\__\deps\glad_gl.c.i
+	cd /d C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-build\examples && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-src\deps\glad_gl.c > CMakeFiles\simple.dir\__\deps\glad_gl.c.i
 
 _deps/glfw-build/examples/CMakeFiles/simple.dir/__/deps/glad_gl.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/simple.dir/__/deps/glad_gl.c.s"
-	cd /d C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-build\examples && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-src\deps\glad_gl.c -o CMakeFiles\simple.dir\__\deps\glad_gl.c.s
+	cd /d C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-build\examples && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-src\deps\glad_gl.c -o CMakeFiles\simple.dir\__\deps\glad_gl.c.s
 
 # Object files for target simple
 simple_OBJECTS = \
@@ -119,7 +119,7 @@ _deps/glfw-build/examples/simple.exe: _deps/glfw-build/examples/CMakeFiles/simpl
 _deps/glfw-build/examples/simple.exe: _deps/glfw-build/examples/CMakeFiles/simple.dir/glfw.rc.obj
 _deps/glfw-build/examples/simple.exe: _deps/glfw-build/examples/CMakeFiles/simple.dir/__/deps/glad_gl.c.obj
 _deps/glfw-build/examples/simple.exe: _deps/glfw-build/examples/CMakeFiles/simple.dir/build.make
-_deps/glfw-build/examples/simple.exe: _deps/glfw-build/src/libglfw3.a
+_deps/glfw-build/examples/simple.exe: _deps/glfw-build/src/libglfw3d.a
 _deps/glfw-build/examples/simple.exe: _deps/glfw-build/examples/CMakeFiles/simple.dir/linkLibs.rsp
 _deps/glfw-build/examples/simple.exe: _deps/glfw-build/examples/CMakeFiles/simple.dir/objects1.rsp
 _deps/glfw-build/examples/simple.exe: _deps/glfw-build/examples/CMakeFiles/simple.dir/link.txt

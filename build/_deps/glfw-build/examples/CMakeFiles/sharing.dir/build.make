@@ -76,35 +76,35 @@ _deps/glfw-build/examples/CMakeFiles/sharing.dir/sharing.c.obj: _deps/glfw-build
 _deps/glfw-build/examples/CMakeFiles/sharing.dir/sharing.c.obj: _deps/glfw-src/examples/sharing.c
 _deps/glfw-build/examples/CMakeFiles/sharing.dir/sharing.c.obj: _deps/glfw-build/examples/CMakeFiles/sharing.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\USER\Desktop\program\projects\CoraGraphics\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object _deps/glfw-build/examples/CMakeFiles/sharing.dir/sharing.c.obj"
-	cd /d C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-build\examples && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/glfw-build/examples/CMakeFiles/sharing.dir/sharing.c.obj -MF CMakeFiles\sharing.dir\sharing.c.obj.d -o CMakeFiles\sharing.dir\sharing.c.obj -c C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-src\examples\sharing.c
+	cd /d C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-build\examples && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/glfw-build/examples/CMakeFiles/sharing.dir/sharing.c.obj -MF CMakeFiles\sharing.dir\sharing.c.obj.d -o CMakeFiles\sharing.dir\sharing.c.obj -c C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-src\examples\sharing.c
 
 _deps/glfw-build/examples/CMakeFiles/sharing.dir/sharing.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/sharing.dir/sharing.c.i"
-	cd /d C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-build\examples && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-src\examples\sharing.c > CMakeFiles\sharing.dir\sharing.c.i
+	cd /d C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-build\examples && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-src\examples\sharing.c > CMakeFiles\sharing.dir\sharing.c.i
 
 _deps/glfw-build/examples/CMakeFiles/sharing.dir/sharing.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/sharing.dir/sharing.c.s"
-	cd /d C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-build\examples && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-src\examples\sharing.c -o CMakeFiles\sharing.dir\sharing.c.s
+	cd /d C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-build\examples && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-src\examples\sharing.c -o CMakeFiles\sharing.dir\sharing.c.s
 
 _deps/glfw-build/examples/CMakeFiles/sharing.dir/glfw.rc.obj: _deps/glfw-build/examples/CMakeFiles/sharing.dir/flags.make
 _deps/glfw-build/examples/CMakeFiles/sharing.dir/glfw.rc.obj: _deps/glfw-src/examples/glfw.rc
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\USER\Desktop\program\projects\CoraGraphics\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building RC object _deps/glfw-build/examples/CMakeFiles/sharing.dir/glfw.rc.obj"
-	cd /d C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-build\examples && C:\MinGW\bin\windres.exe -O coff $(RC_DEFINES) $(RC_INCLUDES) $(RC_FLAGS) C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-src\examples\glfw.rc CMakeFiles\sharing.dir\glfw.rc.obj
+	cd /d C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-build\examples && C:\msys64\mingw64\bin\windres.exe -O coff $(RC_DEFINES) $(RC_INCLUDES) $(RC_FLAGS) C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-src\examples\glfw.rc CMakeFiles\sharing.dir\glfw.rc.obj
 
 _deps/glfw-build/examples/CMakeFiles/sharing.dir/__/deps/glad_gl.c.obj: _deps/glfw-build/examples/CMakeFiles/sharing.dir/flags.make
 _deps/glfw-build/examples/CMakeFiles/sharing.dir/__/deps/glad_gl.c.obj: _deps/glfw-build/examples/CMakeFiles/sharing.dir/includes_C.rsp
 _deps/glfw-build/examples/CMakeFiles/sharing.dir/__/deps/glad_gl.c.obj: _deps/glfw-src/deps/glad_gl.c
 _deps/glfw-build/examples/CMakeFiles/sharing.dir/__/deps/glad_gl.c.obj: _deps/glfw-build/examples/CMakeFiles/sharing.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\USER\Desktop\program\projects\CoraGraphics\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object _deps/glfw-build/examples/CMakeFiles/sharing.dir/__/deps/glad_gl.c.obj"
-	cd /d C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-build\examples && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/glfw-build/examples/CMakeFiles/sharing.dir/__/deps/glad_gl.c.obj -MF CMakeFiles\sharing.dir\__\deps\glad_gl.c.obj.d -o CMakeFiles\sharing.dir\__\deps\glad_gl.c.obj -c C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-src\deps\glad_gl.c
+	cd /d C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-build\examples && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/glfw-build/examples/CMakeFiles/sharing.dir/__/deps/glad_gl.c.obj -MF CMakeFiles\sharing.dir\__\deps\glad_gl.c.obj.d -o CMakeFiles\sharing.dir\__\deps\glad_gl.c.obj -c C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-src\deps\glad_gl.c
 
 _deps/glfw-build/examples/CMakeFiles/sharing.dir/__/deps/glad_gl.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/sharing.dir/__/deps/glad_gl.c.i"
-	cd /d C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-build\examples && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-src\deps\glad_gl.c > CMakeFiles\sharing.dir\__\deps\glad_gl.c.i
+	cd /d C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-build\examples && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-src\deps\glad_gl.c > CMakeFiles\sharing.dir\__\deps\glad_gl.c.i
 
 _deps/glfw-build/examples/CMakeFiles/sharing.dir/__/deps/glad_gl.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/sharing.dir/__/deps/glad_gl.c.s"
-	cd /d C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-build\examples && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-src\deps\glad_gl.c -o CMakeFiles\sharing.dir\__\deps\glad_gl.c.s
+	cd /d C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-build\examples && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-src\deps\glad_gl.c -o CMakeFiles\sharing.dir\__\deps\glad_gl.c.s
 
 # Object files for target sharing
 sharing_OBJECTS = \
@@ -119,7 +119,7 @@ _deps/glfw-build/examples/sharing.exe: _deps/glfw-build/examples/CMakeFiles/shar
 _deps/glfw-build/examples/sharing.exe: _deps/glfw-build/examples/CMakeFiles/sharing.dir/glfw.rc.obj
 _deps/glfw-build/examples/sharing.exe: _deps/glfw-build/examples/CMakeFiles/sharing.dir/__/deps/glad_gl.c.obj
 _deps/glfw-build/examples/sharing.exe: _deps/glfw-build/examples/CMakeFiles/sharing.dir/build.make
-_deps/glfw-build/examples/sharing.exe: _deps/glfw-build/src/libglfw3.a
+_deps/glfw-build/examples/sharing.exe: _deps/glfw-build/src/libglfw3d.a
 _deps/glfw-build/examples/sharing.exe: _deps/glfw-build/examples/CMakeFiles/sharing.dir/linkLibs.rsp
 _deps/glfw-build/examples/sharing.exe: _deps/glfw-build/examples/CMakeFiles/sharing.dir/objects1.rsp
 _deps/glfw-build/examples/sharing.exe: _deps/glfw-build/examples/CMakeFiles/sharing.dir/link.txt

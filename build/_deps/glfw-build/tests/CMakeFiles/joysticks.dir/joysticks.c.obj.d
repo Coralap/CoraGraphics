@@ -2,16 +2,34 @@ _deps/glfw-build/tests/CMakeFiles/joysticks.dir/joysticks.c.obj: \
  C:\Users\USER\Desktop\program\projects\CoraGraphics\build\_deps\glfw-src\tests\joysticks.c \
  C:/Users/USER/Desktop/program/projects/CoraGraphics/build/_deps/glfw-src/deps/glad/gl.h \
  C:/Users/USER/Desktop/program/projects/CoraGraphics/build/_deps/glfw-src/deps/glad/khrplatform.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\stdint.h \
- c:\mingw\include\stdint.h c:\mingw\include\_mingw.h \
- c:\mingw\include\msvcrtver.h c:\mingw\include\w32api.h \
- c:\mingw\include\sdkddkver.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\stddef.h \
+ C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdint.h \
+ C:/msys64/mingw64/include/stdint.h C:/msys64/mingw64/include/crtdefs.h \
+ C:/msys64/mingw64/include/corecrt.h C:/msys64/mingw64/include/_mingw.h \
+ C:/msys64/mingw64/include/_mingw_mac.h \
+ C:/msys64/mingw64/include/_mingw_secapi.h \
+ C:/msys64/mingw64/include/vadefs.h \
+ C:/msys64/mingw64/include/sdks/_mingw_ddk.h \
+ C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h \
+ C:/msys64/mingw64/include/stddef.h \
  C:/Users/USER/Desktop/program/projects/CoraGraphics/build/_deps/glfw-src/include/GLFW/glfw3.h \
  C:/Users/USER/Desktop/program/projects/CoraGraphics/build/_deps/glfw-src/deps/nuklear.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\stdarg.h \
- c:\mingw\include\stdlib.h c:\mingw\include\assert.h \
+ C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
+ C:/msys64/mingw64/include/stdarg.h \
+ C:/msys64/mingw64/include/_mingw_stdarg.h \
+ C:/msys64/mingw64/include/stdlib.h \
+ C:/msys64/mingw64/include/corecrt_wstdlib.h \
+ C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h \
+ C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h \
+ C:/msys64/mingw64/include/limits.h \
+ C:/msys64/mingw64/include/sec_api/stdlib_s.h \
+ C:/msys64/mingw64/include/malloc.h \
+ C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h \
+ C:/msys64/mingw64/include/errno.h C:/msys64/mingw64/include/assert.h \
  C:/Users/USER/Desktop/program/projects/CoraGraphics/build/_deps/glfw-src/deps/nuklear_glfw_gl2.h \
- c:\mingw\include\stdio.h c:\mingw\include\sys/types.h \
- c:\mingw\include\string.h c:\mingw\include\strings.h \
- c:\mingw\include\wchar.h
+ C:/msys64/mingw64/include/stdio.h \
+ C:/msys64/mingw64/include/corecrt_stdio_config.h \
+ C:/msys64/mingw64/include/_mingw_off_t.h \
+ C:/msys64/mingw64/include/swprintf.inl \
+ C:/msys64/mingw64/include/sec_api/stdio_s.h \
+ C:/msys64/mingw64/include/string.h \
+ C:/msys64/mingw64/include/sec_api/string_s.h

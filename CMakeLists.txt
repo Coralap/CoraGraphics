@@ -50,18 +50,6 @@ else()
     set(OPENGL_TARGET ${OPENGL_LIBRARIES})
 endif()
 
-# -----------------------------
-# Add Assimp
-# -----------------------------
-set(ASSIMP_DIR ${CMAKE_CURRENT_SOURCE_DIR}/external/assimp)
-set(ASSIMP_BUILD_DIR ${ASSIMP_DIR}/build)
-
-add_library(assimp SHARED IMPORTED)
-set_target_properties(assimp PROPERTIES
-    IMPORTED_LOCATION ${ASSIMP_BUILD_DIR}/bin/libassimp.dll
-    IMPORTED_IMPLIB ${ASSIMP_BUILD_DIR}/lib/libassimp.dll.a
-    INTERFACE_INCLUDE_DIRECTORIES ${ASSIMP_DIR}/include
-)
 
 # -----------------------------
 # Add main executable
